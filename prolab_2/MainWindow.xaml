@@ -11,7 +11,20 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen" 
         Background="Black">
-    <Canvas x:Name="GameCanvas" Background="DarkGray" >
-        <Button Content="Start" Canvas.Left="930" Canvas.Top="128" Height="50" Width="60" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+    <Canvas x:Name="GameCanvas" Background="DarkGray" Margin="10">
+        <Button x:Name="btnEnemy2" 
+                Content="Enemy2" 
+                Canvas.Left="470" 
+                Canvas.Top="10" 
+                Height="50" Width="60" 
+                HorizontalAlignment="Center" VerticalAlignment="Top"
+                Click="btnEnemy2_Click"
+                Visibility="Hidden"/>
+        <Button x:Name="btnEnemy" 
+                Content="Enemy" 
+                Canvas.Left="920" Canvas.Top="180" 
+                Height="50" Width="60" 
+                Click="btnEnemy_Click"
+                HorizontalAlignment="Center" VerticalAlignment="Top"/>
     </Canvas>
 </Window>
