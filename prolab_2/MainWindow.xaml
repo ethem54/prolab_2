@@ -26,5 +26,19 @@
                 Height="50" Width="60" 
                 Click="btnEnemy_Click"
                 HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="PlayerHealthBar"
+             Minimum="0"
+             Maximum="100"
+             Value="100"
+             Height="25"
+             Margin="10"
+             VerticalAlignment="Top"
+             Foreground="Red"
+             Background="DarkGray"/>
+        <TextBlock x:Name="HealthText"
+           Text="HEALTH: 100"
+           FontSize="16"
+           Margin="850,20,0,0"
+           Foreground="Black"/>
     </Canvas>
 </Window>

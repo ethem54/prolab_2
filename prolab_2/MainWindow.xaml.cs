@@ -22,33 +22,47 @@ namespace prolab_2
         public double Health { get; set; }
         public double Armor { get; set; }
         public double ID { get; set; }
+
+        public double Speed { get; set; } = 1.5;
         public bool IsFlying { get; set; }
 
-        protected Enemy(string type, double id, double health, double armor)
+        public Shape rectangle { get; set; }
+        public List<Point> Path { get; set; }
+        public int CurrentWaypoint { get; set; } = 0;
+
+        protected Enemy(string type, double id, double health)
         {
-            this.Type = type;
-            this.ID = id;
-            this.Health = health;
-            this.Armor = armor;
+            Type = type;
+            ID = id;
+            Health = health;
         }
 
         public void TakeDamage(double damage)
         {
-            double gettingDamage = damage; // Formül sonra eklenecek
+            double realDamage = Math.Max(0, damage - Armor);
+            Health -= realDamage;
         }
     }
-    public class SimpleEnemy
+    public class ArmoredEnemy : Enemy
     {
-        public Rectangle Shape;
-        public int CurrentWaypoint = 0;
-        public double Speed = 1.5;
-        public List<Point> Path;
+        public ArmoredEnemy(double id) : base ("armored", id, 100)
+        {
+            Armor = 10;
+            IsFlying = false;
+
+            rectangle = new Rectangle
+            {
+                Height = 40,
+                Width = 40,
+                Fill = Brushes.Red
+            };
+        }
     }
     public abstract class Tower
     {
         public string Type { get; set; }
         public double Power { get; set; }
-        public double AttackSpeed { get; set; }
+        public double Attackspeed { get; set; }
         public double Range { get; set; }
         public bool IsSlow { get; set; }
 
@@ -75,23 +89,42 @@ namespace prolab_2
     {
         DispatcherTimer gameLoop;
         DispatcherTimer buttonTimer;
+        DispatcherTimer spawnTimer;
+
         List<Point> PathFromRight = new List<Point>();
         List<Point> PathFromTop = new List<Point>();
-        List<SimpleEnemy> enemies = new List<SimpleEnemy>();
+        List<Enemy> enemies = new List<Enemy>();
 
         bool secondSpawnUnlocked = false;
+        bool firstTick = false;
+        bool waveCheck = false;
+
+        int currentWave = 0;      
+        int rightSpawned = 0;
+        int topSpawned = 0;
+        int wave1Count = 5;       
+        int wave2EachCount = 5;
+
+        
         GameManager GM = new GameManager();
+
         public MainWindow()
         {
             InitializeComponent();
 
+            PlayerHealthBar.Value = GM.PlayerHealth;
+            HealthText.Text = "Health: " + GM.PlayerHealth;
             gameLoop = new DispatcherTimer();
-            gameLoop.Interval = TimeSpan.FromMilliseconds(9);
+            gameLoop.Interval = TimeSpan.FromMilliseconds(16);
             gameLoop.Tick += GameLoop_Tick;
 
             buttonTimer = new DispatcherTimer();
             buttonTimer.Interval = TimeSpan.FromSeconds(5);
             buttonTimer.Tick += ButtonTimer_Tick;
+
+            spawnTimer = new DispatcherTimer();
+            spawnTimer.Interval = TimeSpan.FromSeconds(2);
+            spawnTimer.Tick += SpawnTimer_Tick;
 
             PathFromRight.Add(new Point(950, 200));
             PathFromRight.Add(new Point(700, 250));
@@ -100,40 +133,33 @@ namespace prolab_2
             PathFromRight.Add(new Point(150, 400));
 
             PathFromTop.Add(new Point(500, 10));
-            PathFromTop.Add(new Point(500, 200));
+            PathFromTop.Add(new Point(450, 200));
             PathFromTop.Add(new Point(400, 300));
             PathFromTop.Add(new Point(150, 300));
             PathFromTop.Add(new Point(150, 400));
         }
         void SpawnEnemy(List<Point> path)
         {
-            SimpleEnemy enemy = new SimpleEnemy();
-
-            enemy.Shape = new Rectangle
-            {
-                Width = 30,
-                Height = 30,
-                Fill = Brushes.Red
-            };
+            Enemy enemy = new ArmoredEnemy(enemies.Count + 1);
 
             enemy.Path = path;
             enemy.CurrentWaypoint = 0;
 
-            Canvas.SetLeft(enemy.Shape, path[0].X);
-            Canvas.SetTop(enemy.Shape, path[0].Y);
+            Canvas.SetLeft(enemy.rectangle, path[0].X);
+            Canvas.SetTop(enemy.rectangle, path[0].Y);
 
             enemies.Add(enemy);
-            GameCanvas.Children.Add(enemy.Shape);
+            GameCanvas.Children.Add(enemy.rectangle);
         }
         private void GameLoop_Tick(object sender, EventArgs e)
         {
             for (int i = enemies.Count - 1; i >= 0; i--)
             {
-                SimpleEnemy enemy = enemies[i];
+                Enemy enemy = enemies[i];
                 Point target = enemy.Path[enemy.CurrentWaypoint];
 
-                double x = Canvas.GetLeft(enemy.Shape);
-                double y = Canvas.GetTop(enemy.Shape);
+                double x = Canvas.GetLeft(enemy.rectangle);
+                double y = Canvas.GetTop(enemy.rectangle);
 
                 double dx = target.X - x;
                 double dy = target.Y - y;
@@ -146,8 +172,17 @@ namespace prolab_2
 
                     if (enemy.CurrentWaypoint >= enemy.Path.Count)
                     {
-                        GM.PlayerHealth -= 10;
-                        GameCanvas.Children.Remove(enemy.Shape);
+                        double damageToPlayer = enemy.Health / 10;
+                        GM.PlayerHealth -= damageToPlayer;
+
+                        if (GM.PlayerHealth < 0)
+                        {
+                            GM.PlayerHealth = 0;
+                        }
+
+                        PlayerHealthBar.Value = GM.PlayerHealth;
+                        HealthText.Text = "Health: " + Math.Round(GM.PlayerHealth);
+                        GameCanvas.Children.Remove(enemy.rectangle);
                         enemies.RemoveAt(i);
                         continue;
                     }
@@ -157,32 +192,60 @@ namespace prolab_2
                     double nx = dx / distance;
                     double ny = dy / distance;
 
-                    Canvas.SetLeft(enemy.Shape, x + nx * enemy.Speed);
-                    Canvas.SetTop(enemy.Shape, y + ny * enemy.Speed);
+                    Canvas.SetLeft(enemy.rectangle, x + nx * enemy.Speed);
+                    Canvas.SetTop(enemy.rectangle, y + ny * enemy.Speed);
                 }
             }
         }
         private void btnEnemy_Click(object sender, RoutedEventArgs e)
         {
-            SpawnEnemy(PathFromRight);
 
             btnEnemy.Visibility = Visibility.Hidden;
             btnEnemy2.Visibility = Visibility.Hidden;
+          
+            if (currentWave == 0)
+            {
+                if (!waveCheck)
+                {
+                    currentWave = 1;
+                }
+                else
+                {
+                    currentWave = 2;
+                }
+                rightSpawned = 0;
+                topSpawned = 0;
+                spawnTimer.Start();
+            }
 
             if (!secondSpawnUnlocked)
             {
                 secondSpawnUnlocked = true;
             }
 
-            buttonTimer.Start();
-            if(!gameLoop.IsEnabled)
+            if (!firstTick)
+            {
+                buttonTimer.Start();
+            }
+
+            if (!gameLoop.IsEnabled)
             {
                 gameLoop.Start();
             }
         }
         private void btnEnemy2_Click(object sender, RoutedEventArgs e)
         {
-            SpawnEnemy(PathFromTop);
+            btnEnemy.Visibility = Visibility.Hidden;
+            btnEnemy2.Visibility = Visibility.Hidden;
+
+            if (currentWave == 0)
+            {
+                currentWave = 2;
+                rightSpawned = 0;
+                topSpawned = 0;
+                spawnTimer.Start();
+            }
+
             if (!gameLoop.IsEnabled)
             {
                 gameLoop.Start();
@@ -190,12 +253,53 @@ namespace prolab_2
         }
         private void ButtonTimer_Tick(object sender, EventArgs e)
         {
+            firstTick = true;
             buttonTimer.Stop();
             btnEnemy.Visibility = Visibility.Visible;
             btnEnemy2.Visibility = Visibility.Visible;
         }
+        private void SpawnTimer_Tick(Object sender, EventArgs e)
+        {
+            if (currentWave == 1)
+            {
+                if (rightSpawned < wave1Count)
+                {
+                    SpawnEnemy(PathFromRight);
+                    rightSpawned++;
+                }
+                else
+                {
+                    spawnTimer.Stop();
+                    currentWave = 0;
+                    waveCheck = true;
+                }
+            }
+            else if (currentWave == 2)
+            {
+                // Wave2: her iki taraftan wave2EachCount tane (aynı tick'te aynı anda spawn)
+                bool spawnedSomething = false;
 
+                if (rightSpawned < wave2EachCount)
+                {
+                    SpawnEnemy(PathFromRight);
+                    rightSpawned++;
+                    spawnedSomething = true;
+                }
+
+                if (topSpawned < wave2EachCount)
+                {
+                    SpawnEnemy(PathFromTop);
+                    topSpawned++;
+                    spawnedSomething = true;
+                }
+
+                if (!spawnedSomething || (rightSpawned >= wave2EachCount && topSpawned >= wave2EachCount))
+                {
+                    spawnTimer.Stop();
+                    currentWave = 0;
+                }
+            }
+        }
     }
-
 }
     
