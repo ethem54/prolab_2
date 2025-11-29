@@ -60,19 +60,40 @@ namespace prolab_2
     }
     public abstract class Tower
     {
-        public string Type { get; set; }
+        public string Name { get; set; }
         public double Power { get; set; }
         public double Attackspeed { get; set; }
         public double Range { get; set; }
         public bool IsSlow { get; set; }
+        public int cooldown { get; set; } = 0;
+        public Shape ellipse { get; set; }
 
-        protected Tower(double power, double range)
+        protected Tower(string name)
         {
-            this.Power = power;
-            this.Range = range;
+            Name = name;
+        }
+
+        private void Attack (Enemy enemy)
+        {
+            enemy.TakeDamage(Power);
         }
     }
+    public class StandardTower : Tower
+    {
+        public StandardTower(string name) : base(name)
+        {
+            Power = 20;
+            Attackspeed = 1;
+            Range = 150;
 
+            ellipse = new Ellipse
+            {
+                Height = 50,
+                Width = 50,
+                Fill = Brushes.Blue
+            };
+        }
+    }
     public class GameManager
     {
         // değişkenlerin olduğu yer
@@ -131,13 +152,15 @@ namespace prolab_2
             PathFromRight.Add(new Point(400, 300));
             PathFromRight.Add(new Point(150, 300));
             PathFromRight.Add(new Point(150, 400));
-
+            
             PathFromTop.Add(new Point(500, 10));
             PathFromTop.Add(new Point(450, 200));
             PathFromTop.Add(new Point(400, 300));
             PathFromTop.Add(new Point(150, 300));
             PathFromTop.Add(new Point(150, 400));
+
         }
+
         void SpawnEnemy(List<Point> path)
         {
             Enemy enemy = new ArmoredEnemy(enemies.Count + 1);
@@ -153,6 +176,7 @@ namespace prolab_2
         }
         private void GameLoop_Tick(object sender, EventArgs e)
         {
+            HandleTowers();
             for (int i = enemies.Count - 1; i >= 0; i--)
             {
                 Enemy enemy = enemies[i];
@@ -161,8 +185,11 @@ namespace prolab_2
                 double x = Canvas.GetLeft(enemy.rectangle);
                 double y = Canvas.GetTop(enemy.rectangle);
 
-                double dx = target.X - x;
-                double dy = target.Y - y;
+                double centerX = x + enemy.rectangle.Width / 2;
+                double centerY = y + enemy.rectangle.Height / 2;
+
+                double dx = target.X - centerX;
+                double dy = target.Y - centerY;
 
                 double distance = Math.Sqrt(dx * dx + dy * dy);
 
@@ -194,6 +221,37 @@ namespace prolab_2
 
                     Canvas.SetLeft(enemy.rectangle, x + nx * enemy.Speed);
                     Canvas.SetTop(enemy.rectangle, y + ny * enemy.Speed);
+                }
+            }
+        }
+        private void HandleTowers()
+        {
+            foreach (var t in GM.Towers)
+            {
+                foreach (var e in enemies)
+                {
+                    double towerX = Canvas.GetLeft(t.ellipse) + t.ellipse.Width / 2;
+                    double towerY = Canvas.GetTop(t.ellipse) + t.ellipse.Height / 2;
+
+                    double enemyX = Canvas.GetLeft(e.rectangle) + e.rectangle.Width / 2;
+                    double enemyY = Canvas.GetTop(e.rectangle) + e.rectangle.Height / 2;
+
+                    double distance = Math.Sqrt((towerX - enemyX) * (towerX - enemyX) + (towerY - enemyY) * (towerY - enemyY));
+
+                    if (distance <= t.Range)
+                    {
+                        e.TakeDamage(t.Power);
+                    }
+                }
+            }
+
+        // Ölü düşmanları temizle
+            for (int i = enemies.Count - 1; i >= 0; i--)
+            {
+                if (enemies[i].Health <= 0)
+                {
+                    GameCanvas.Children.Remove(enemies[i].rectangle);
+                    enemies.RemoveAt(i);
                 }
             }
         }
@@ -276,7 +334,6 @@ namespace prolab_2
             }
             else if (currentWave == 2)
             {
-                // Wave2: her iki taraftan wave2EachCount tane (aynı tick'te aynı anda spawn)
                 bool spawnedSomething = false;
 
                 if (rightSpawned < wave2EachCount)
@@ -300,6 +357,32 @@ namespace prolab_2
                 }
             }
         }
+        private void tower_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (tower.SelectedItem == null) return;
+
+            string selectedTower = ((ComboBoxItem)tower.SelectedItem).Content.ToString();
+
+            Tower newTower = null;
+
+            if (selectedTower == "StandardTower")
+                newTower = new StandardTower("StandardTower");
+
+            if (newTower != null)
+            {
+                // ComboBox'un konumunu al
+                double x = Canvas.GetLeft(tower) + tower.Width / 2 - newTower.ellipse.Width / 2;
+                double y = Canvas.GetTop(tower) + tower.Height / 2 - newTower.ellipse.Height / 2;
+
+                Canvas.SetLeft(newTower.ellipse, x);
+                Canvas.SetTop(newTower.ellipse, y);
+
+                GM.Towers.Add(newTower);
+                GameCanvas.Children.Add(newTower.ellipse);
+                tower.Visibility = Visibility.Hidden;
+            }
+        }
+
     }
 }
     

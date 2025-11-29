@@ -30,15 +30,25 @@
              Minimum="0"
              Maximum="100"
              Value="100"
-             Height="25"
-             Margin="10"
+             Height="18" Width="90"
              VerticalAlignment="Top"
              Foreground="Red"
-             Background="DarkGray"/>
+             Background="DarkGray" 
+             HorizontalAlignment="Left" 
+             Canvas.Left="850" Canvas.Top="20"/>
         <TextBlock x:Name="HealthText"
            Text="HEALTH: 100"
            FontSize="16"
-           Margin="850,20,0,0"
-           Foreground="Black"/>
+           Foreground="Black" Canvas.Left="850" Canvas.Top="18"/>
+        <Polyline Stroke="LightGreen" StrokeThickness="5"
+                  Points="950,200 700,250 400,300 150,300 150,400"/>
+        <Polyline Stroke="LightGreen" StrokeThickness="5"
+                  Points="500, 10 450, 200 400, 300 150, 300 150, 400"/>
+        <ComboBox x:Name="tower" Canvas.Left="500" Canvas.Top="180" Width="135" Text="" Background="#FF23209C" IsEditable="True" BorderBrush="#FF321B7D" Height="27" HorizontalAlignment="Left" VerticalAlignment="Center"
+                SelectionChanged="tower_SelectionChanged">
+            <ComboBoxItem Content="StandardTower"/>
+            <ComboBoxItem Content="CannonTower"/>
+            <ComboBoxItem Content="FreezeTower"/>
+        </ComboBox>
     </Canvas>
 </Window>
