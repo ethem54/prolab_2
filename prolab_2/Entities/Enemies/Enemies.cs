@@ -41,9 +41,10 @@ namespace prolab_2
         // Hasar Alma
         public void TakeDamage(double rawDamage)
         {
-            // Zırh formülü: Hasar - Zırh (En az 0 olabilir)
-            double actualDamage = Math.Max(0, rawDamage - Armor);
-            CurrentHealth -= actualDamage;
+            double damageReduction = 1.0 - (Armor / (Armor + 100.0));
+            double netDamage = rawDamage * damageReduction;
+
+            CurrentHealth -= netDamage;
         }
 
         // Yavaşlatma Uygulama (ApplySlow)

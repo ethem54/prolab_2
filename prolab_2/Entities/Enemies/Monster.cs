@@ -1,26 +1,28 @@
-﻿using System.Collections.Generic;
-using TowerDefense;
-using System;
-using System.Linq;
-using prolab_2;
-using System.Windows.Media;
+﻿using System.Windows.Media;
 using System.Windows.Shapes;
 
-namespace TowerDefense
+namespace prolab_2
 {
-
-    //Uçabilen düşman türümüz
     public class FlyingMonster : Enemy
     {
-       //CONSTRUCTOR
-        public FlyingMonster(string id, int x, int y) : base (id, "Uçan Yaratık", x, y, 50, 0, 15, 15, true, 5)
+        public FlyingMonster(string id, double x, double y)
+            // PDF İsterleri (Uçan Düşman):
+            // Can: 50 (Standart ile aynı)
+            // Hız: 12 (Standarttan %50 hızlı - Goblin 8 ise bu 12 olur)
+            // Zırh: 0 (Zırhsız)
+            // Para: 15 (Ödül)
+            // Üs Hasarı: 5
+            // Uçuyor mu: EVET (true)
+            : base(id, "Flying Monster", x, y, 50, 0, 12, 15, true, 5)
         {
-            Appearance = new Rectangle
+            // Görünüm: Mor renkli, küçük ve hızlı bir daire
+            Appearance = new Ellipse
             {
-                Width = 25,
-                Height = 25,
-                Fill = Brushes.LawnGreen,
-                Stroke = Brushes.Black
+                Width = 20,
+                Height = 20,
+                Fill = Brushes.Indigo, // Ayırt edici mor renk
+                Stroke = Brushes.White,
+                StrokeThickness = 1
             };
             UpdateVisual();
         }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
-using TowerDefense;
 
 namespace prolab_2
 {
@@ -31,7 +30,10 @@ namespace prolab_2
         int monsterSpawned = 0;
 
         int wave1Count = 5;    
-        int wave2EachCount = 5; 
+        int wave2EachCount = 5;
+
+        int wave1SpawnCount = 0;
+
 
         public MainWindow()
         {
@@ -129,47 +131,43 @@ namespace prolab_2
         {
             if (currentWave == 1)
             {
-                if (rightSpawned < 5)
+
+                if (wave1SpawnCount < 5)
+                    SpawnEnemy(PathFromRight, "Goblin"); // 2 tane Goblin
+                wave1SpawnCount++;
+
+                if (wave1SpawnCount >= 4) // Toplam 4 düşman gönderdik
+                {
+                    spawnTimer.Stop();
+                    currentWave = 0;
+                    waveCheck = true;
+                    Logger.Log("Dalga 1 gönderimi tamamlandı.");
+                }
+            }
+            else if (currentWave == 2)
+            {
+                // Karışık gönderim mantığın kalabilir, ama log ekle
+                if (topSpawned < 5)
+                {
+                    SpawnEnemy(PathFromTop, "Knight");
+                    topSpawned++;
+                }
+                else if (rightSpawned < 5)
                 {
                     SpawnEnemy(PathFromRight, "Goblin");
                     rightSpawned++;
+                }
+                else if (monsterSpawned < 3) // Sayıları dengeleyebilirsin
+                {
+                    SpawnEnemy(PathFromRight, "Monster");
+                    monsterSpawned++;
                 }
                 else
                 {
                     spawnTimer.Stop();
                     currentWave = 0;
-                    waveCheck = true;
+                    Logger.Log("Dalga 2 gönderimi tamamlandı.");
                 }
-            }
-            else if (currentWave == 2)
-            {
-                // ÜSTTEN 5 KNIGHT
-                if (topSpawned < 5)
-                {
-                    SpawnEnemy(PathFromTop, "Knight");
-                    topSpawned++;
-                    return;
-                }
-
-                // SAĞDAN 5 GOBLIN
-                if (rightSpawned < 5)
-                {
-                    SpawnEnemy(PathFromRight, "Goblin");
-                    rightSpawned++;
-                    return;
-                }
-
-                // SAĞDAN 5 MONSTER
-                if (monsterSpawned < 5)
-                {
-                    SpawnEnemy(PathFromRight, "Monster");
-                    monsterSpawned++;
-                    return;
-                }
-
-                // Hepsi bittiyse wave bitir
-                spawnTimer.Stop();
-                currentWave = 0;
             }
         }
         private void SpawnEnemy(List<Point> path, string enemyType)

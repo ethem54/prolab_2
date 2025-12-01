@@ -1,0 +1,19 @@
+Dalga 1 gönderimi tamamlandı.
+Kule 'T1' alan atışı yaptı. Merkez: 'E2'
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T1' alan atışı yaptı. Merkez: 'E3'
+Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T1' alan atışı yaptı. Merkez: 'E9'
+Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+Dalga 2 gönderimi tamamlandı.
+Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+Kule 'T1' alan atışı yaptı. Merkez: 'E11'
+Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E14' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E11' hedefine atış yaptı. Hasar: 10
