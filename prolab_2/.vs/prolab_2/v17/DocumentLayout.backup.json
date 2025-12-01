@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\enemies\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\enemies\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\enemies\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\enemies\\enemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\enemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\base\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\base\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\towers\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +62,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameObject.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Base\\GameObject.cs",
+              "RelativeDocumentMoniker": "Entities\\Base\\GameObject.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Base\\GameObject.cs",
+              "RelativeToolTip": "Entities\\Base\\GameObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:30:34.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemies.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Enemies.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Enemies.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Enemies.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Enemies.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wCUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:31:08.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Towers.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\Towers.cs",
+              "RelativeDocumentMoniker": "Entities\\Towers\\Towers.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\Towers.cs",
+              "RelativeToolTip": "Entities\\Towers\\Towers.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:31:22.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Monster.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Monster.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Monster.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T22:31:33.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml.cs*",
               "RelativeToolTip": "MainWindow.xaml.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwC8AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T14:34:31.722Z",
               "EditorCaption": ""
@@ -56,6 +128,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Knight.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Knight.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Knight.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Knight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T00:04:17.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Goblin.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Goblin.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Goblin.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Goblin.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Goblin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T22:32:46.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -63,18 +161,6 @@
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-07T14:34:32.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T21:06:46.84Z",
               "EditorCaption": ""
             }
           ]

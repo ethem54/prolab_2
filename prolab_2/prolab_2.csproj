@@ -63,6 +63,16 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Entities\Base\GameObject.cs" />
+    <Compile Include="Entities\Enemies\Enemies.cs" />
+    <Compile Include="Entities\Enemies\Goblin.cs" />
+    <Compile Include="Entities\Enemies\Knight.cs" />
+    <Compile Include="Entities\Enemies\Monster.cs" />
+    <Compile Include="Entities\Towers\ArcherTower.cs" />
+    <Compile Include="Entities\Towers\CannonTower.cs" />
+    <Compile Include="Entities\Towers\IceTower.cs" />
+    <Compile Include="Entities\Towers\SorcererTower.cs" />
+    <Compile Include="Entities\Towers\Towers.cs" />
     <Compile Include="IMainWindow.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -95,5 +105,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

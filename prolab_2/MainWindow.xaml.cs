@@ -1,266 +1,76 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading;
+using TowerDefense;
 
 namespace prolab_2
 {
-    public abstract class Enemy
-    {
-        public string Type { get; set; }
-        public double Health { get; set; }
-        public double Armor { get; set; }
-        public double ID { get; set; }
-
-        public double Speed { get; set; } = 1.5;
-        public bool IsFlying { get; set; }
-
-        public Shape rectangle { get; set; }
-        public List<Point> Path { get; set; }
-        public int CurrentWaypoint { get; set; } = 0;
-
-        protected Enemy(string type, double id, double health)
-        {
-            Type = type;
-            ID = id;
-            Health = health;
-        }
-
-        public void TakeDamage(double damage)
-        {
-            double realDamage = Math.Max(0, damage - Armor);
-            Health -= realDamage;
-        }
-    }
-    public class ArmoredEnemy : Enemy
-    {
-        public ArmoredEnemy(double id) : base ("armored", id, 100)
-        {
-            Armor = 10;
-            IsFlying = false;
-
-            rectangle = new Rectangle
-            {
-                Height = 40,
-                Width = 40,
-                Fill = Brushes.Red
-            };
-        }
-    }
-    public abstract class Tower
-    {
-        public string Name { get; set; }
-        public double Power { get; set; }
-        public double Attackspeed { get; set; }
-        public double Range { get; set; }
-        public bool IsSlow { get; set; }
-        public int cooldown { get; set; } = 0;
-        public Shape ellipse { get; set; }
-
-        protected Tower(string name)
-        {
-            Name = name;
-        }
-
-        private void Attack (Enemy enemy)
-        {
-            enemy.TakeDamage(Power);
-        }
-    }
-    public class StandardTower : Tower
-    {
-        public StandardTower(string name) : base(name)
-        {
-            Power = 20;
-            Attackspeed = 1;
-            Range = 150;
-
-            ellipse = new Ellipse
-            {
-                Height = 50,
-                Width = 50,
-                Fill = Brushes.Blue
-            };
-        }
-    }
-    public class GameManager
-    {
-        // değişkenlerin olduğu yer
-        public double PlayerHealth { get; set; } = 100;
-        public double Gold { get; set; } = 200;
-        public double wave = 0;
-
-        public List<Enemy> Enemies { get; private set; } = new List<Enemy>();
-        public List<Tower> Towers { get; private set; } = new List<Tower>();
-        public List<Point> PathWaypoints { get; private set; } = new List<Point>();
-    }
-
     public partial class MainWindow : Window
     {
         DispatcherTimer gameLoop;
-        DispatcherTimer buttonTimer;
         DispatcherTimer spawnTimer;
+        DispatcherTimer buttonTimer;
+
+        List<Enemy> enemies = new List<Enemy>();
+        List<Tower> towers = new List<Tower>();
 
         List<Point> PathFromRight = new List<Point>();
         List<Point> PathFromTop = new List<Point>();
-        List<Enemy> enemies = new List<Enemy>();
 
-        bool secondSpawnUnlocked = false;
-        bool firstTick = false;
-        bool waveCheck = false;
+        double PlayerHealth = 100;
+        int PlayerMoney = 200;
 
-        int currentWave = 0;      
-        int rightSpawned = 0;
-        int topSpawned = 0;
-        int wave1Count = 5;       
-        int wave2EachCount = 5;
+        bool waveCheck = false;      
+        bool firstTick = false;       
+        int currentWave = 0;        
 
-        
-        GameManager GM = new GameManager();
+        int rightSpawned = 0; 
+        int topSpawned = 0;  
+        int monsterSpawned = 0;
+
+        int wave1Count = 5;    
+        int wave2EachCount = 5; 
 
         public MainWindow()
         {
             InitializeComponent();
+            SetupPaths();
+            UpdateUI();
 
-            PlayerHealthBar.Value = GM.PlayerHealth;
-            HealthText.Text = "Health: " + GM.PlayerHealth;
             gameLoop = new DispatcherTimer();
             gameLoop.Interval = TimeSpan.FromMilliseconds(16);
             gameLoop.Tick += GameLoop_Tick;
 
+            spawnTimer = new DispatcherTimer();
+            spawnTimer.Interval = TimeSpan.FromSeconds(1.5);
+            spawnTimer.Tick += SpawnTimer_Tick;
+
             buttonTimer = new DispatcherTimer();
             buttonTimer.Interval = TimeSpan.FromSeconds(5);
             buttonTimer.Tick += ButtonTimer_Tick;
+        }
 
-            spawnTimer = new DispatcherTimer();
-            spawnTimer.Interval = TimeSpan.FromSeconds(2);
-            spawnTimer.Tick += SpawnTimer_Tick;
-
+        private void SetupPaths()
+        {
             PathFromRight.Add(new Point(950, 200));
             PathFromRight.Add(new Point(700, 250));
             PathFromRight.Add(new Point(400, 300));
             PathFromRight.Add(new Point(150, 300));
             PathFromRight.Add(new Point(150, 400));
-            
+
             PathFromTop.Add(new Point(500, 10));
             PathFromTop.Add(new Point(450, 200));
             PathFromTop.Add(new Point(400, 300));
             PathFromTop.Add(new Point(150, 300));
             PathFromTop.Add(new Point(150, 400));
-
-        }
-
-        void SpawnEnemy(List<Point> path)
-        {
-            Enemy enemy = new ArmoredEnemy(enemies.Count + 1);
-
-            enemy.Path = path;
-            enemy.CurrentWaypoint = 0;
-
-            Canvas.SetLeft(enemy.rectangle, path[0].X);
-            Canvas.SetTop(enemy.rectangle, path[0].Y);
-
-            enemies.Add(enemy);
-            GameCanvas.Children.Add(enemy.rectangle);
-        }
-        private void GameLoop_Tick(object sender, EventArgs e)
-        {
-            HandleTowers();
-            for (int i = enemies.Count - 1; i >= 0; i--)
-            {
-                Enemy enemy = enemies[i];
-                Point target = enemy.Path[enemy.CurrentWaypoint];
-
-                double x = Canvas.GetLeft(enemy.rectangle);
-                double y = Canvas.GetTop(enemy.rectangle);
-
-                double centerX = x + enemy.rectangle.Width / 2;
-                double centerY = y + enemy.rectangle.Height / 2;
-
-                double dx = target.X - centerX;
-                double dy = target.Y - centerY;
-
-                double distance = Math.Sqrt(dx * dx + dy * dy);
-
-                if (distance < 2)
-                {
-                    enemy.CurrentWaypoint++;
-
-                    if (enemy.CurrentWaypoint >= enemy.Path.Count)
-                    {
-                        double damageToPlayer = enemy.Health / 10;
-                        GM.PlayerHealth -= damageToPlayer;
-
-                        if (GM.PlayerHealth < 0)
-                        {
-                            GM.PlayerHealth = 0;
-                        }
-
-                        PlayerHealthBar.Value = GM.PlayerHealth;
-                        HealthText.Text = "Health: " + Math.Round(GM.PlayerHealth);
-                        GameCanvas.Children.Remove(enemy.rectangle);
-                        enemies.RemoveAt(i);
-                        continue;
-                    }
-                }
-                else
-                {
-                    double nx = dx / distance;
-                    double ny = dy / distance;
-
-                    Canvas.SetLeft(enemy.rectangle, x + nx * enemy.Speed);
-                    Canvas.SetTop(enemy.rectangle, y + ny * enemy.Speed);
-                }
-            }
-        }
-        private void HandleTowers()
-        {
-            foreach (var t in GM.Towers)
-            {
-                foreach (var e in enemies)
-                {
-                    double towerX = Canvas.GetLeft(t.ellipse) + t.ellipse.Width / 2;
-                    double towerY = Canvas.GetTop(t.ellipse) + t.ellipse.Height / 2;
-
-                    double enemyX = Canvas.GetLeft(e.rectangle) + e.rectangle.Width / 2;
-                    double enemyY = Canvas.GetTop(e.rectangle) + e.rectangle.Height / 2;
-
-                    double distance = Math.Sqrt((towerX - enemyX) * (towerX - enemyX) + (towerY - enemyY) * (towerY - enemyY));
-
-                    if (distance <= t.Range)
-                    {
-                        e.TakeDamage(t.Power);
-                    }
-                }
-            }
-
-        // Ölü düşmanları temizle
-            for (int i = enemies.Count - 1; i >= 0; i--)
-            {
-                if (enemies[i].Health <= 0)
-                {
-                    GameCanvas.Children.Remove(enemies[i].rectangle);
-                    enemies.RemoveAt(i);
-                }
-            }
         }
         private void btnEnemy_Click(object sender, RoutedEventArgs e)
         {
-
             btnEnemy.Visibility = Visibility.Hidden;
             btnEnemy2.Visibility = Visibility.Hidden;
-          
+ 
             if (currentWave == 0)
             {
                 if (!waveCheck)
@@ -271,14 +81,10 @@ namespace prolab_2
                 {
                     currentWave = 2;
                 }
+ 
                 rightSpawned = 0;
                 topSpawned = 0;
                 spawnTimer.Start();
-            }
-
-            if (!secondSpawnUnlocked)
-            {
-                secondSpawnUnlocked = true;
             }
 
             if (!firstTick)
@@ -295,6 +101,8 @@ namespace prolab_2
         {
             btnEnemy.Visibility = Visibility.Hidden;
             btnEnemy2.Visibility = Visibility.Hidden;
+
+            btnEnemy_Click(sender, e);
 
             if (currentWave == 0)
             {
@@ -313,16 +121,17 @@ namespace prolab_2
         {
             firstTick = true;
             buttonTimer.Stop();
+
             btnEnemy.Visibility = Visibility.Visible;
             btnEnemy2.Visibility = Visibility.Visible;
         }
-        private void SpawnTimer_Tick(Object sender, EventArgs e)
+        private void SpawnTimer_Tick(object sender, EventArgs e)
         {
             if (currentWave == 1)
             {
-                if (rightSpawned < wave1Count)
+                if (rightSpawned < 5)
                 {
-                    SpawnEnemy(PathFromRight);
+                    SpawnEnemy(PathFromRight, "Goblin");
                     rightSpawned++;
                 }
                 else
@@ -334,55 +143,168 @@ namespace prolab_2
             }
             else if (currentWave == 2)
             {
-                bool spawnedSomething = false;
-
-                if (rightSpawned < wave2EachCount)
+                // ÜSTTEN 5 KNIGHT
+                if (topSpawned < 5)
                 {
-                    SpawnEnemy(PathFromRight);
-                    rightSpawned++;
-                    spawnedSomething = true;
-                }
-
-                if (topSpawned < wave2EachCount)
-                {
-                    SpawnEnemy(PathFromTop);
+                    SpawnEnemy(PathFromTop, "Knight");
                     topSpawned++;
-                    spawnedSomething = true;
+                    return;
                 }
 
-                if (!spawnedSomething || (rightSpawned >= wave2EachCount && topSpawned >= wave2EachCount))
+                // SAĞDAN 5 GOBLIN
+                if (rightSpawned < 5)
                 {
-                    spawnTimer.Stop();
-                    currentWave = 0;
+                    SpawnEnemy(PathFromRight, "Goblin");
+                    rightSpawned++;
+                    return;
+                }
+
+                // SAĞDAN 5 MONSTER
+                if (monsterSpawned < 5)
+                {
+                    SpawnEnemy(PathFromRight, "Monster");
+                    monsterSpawned++;
+                    return;
+                }
+
+                // Hepsi bittiyse wave bitir
+                spawnTimer.Stop();
+                currentWave = 0;
+            }
+        }
+        private void SpawnEnemy(List<Point> path, string enemyType)
+        {
+            Enemy newEnemy;
+            Point startPoint = path[0];
+            string id = "E" + (enemies.Count + 1);
+
+            if (enemyType == "Goblin")
+                newEnemy = new Goblin(id, startPoint.X, startPoint.Y);
+            else if (enemyType == "Knight")
+                newEnemy = new Knight(id, startPoint.X, startPoint.Y);
+            else if (enemyType == "Monster")
+                newEnemy = new FlyingMonster(id, (int)startPoint.X, (int)startPoint.Y);
+            else
+                return;
+
+            newEnemy.AssignedPath = path;
+
+            enemies.Add(newEnemy);
+            GameCanvas.Children.Add(newEnemy.Appearance);
+        }
+        private void GameLoop_Tick(object sender, EventArgs e)
+        {
+            double deltaTime = gameLoop.Interval.TotalSeconds;
+
+            // --- 1. KULELERİN GÜNCELLENMESİ ---
+            foreach (var tower in towers)
+            {
+                tower.Update(deltaTime);
+                // Not: Attack metodunu güncellediğimiz için (target, enemies) şeklinde çağırıyoruz
+                var target = tower.GetTarget(enemies);
+                if (target != null) tower.Attack(target, enemies);
+            }
+
+            // --- 2. DÜŞMANLARIN GÜNCELLENMESİ ---
+            for (int i = enemies.Count - 1; i >= 0; i--)
+            {
+                var enemy = enemies[i];
+
+                // Hareket ettir
+                bool reachedEnd = enemy.Move(enemy.AssignedPath, deltaTime);
+
+                // Görseli güncelle
+                enemy.Update(deltaTime);
+
+                // ÖLÜM KONTROLÜ
+                if (enemy.CurrentHealth <= 0)
+                {
+                    PlayerMoney += enemy.Bounty;
+                    GameCanvas.Children.Remove(enemy.Appearance);
+                    enemies.RemoveAt(i);
+                    UpdateUI();
+                    continue; // Düşman öldü, aşağıdaki kodlara bakmaya gerek yok
+                }
+
+                // SONA ULAŞMA KONTROLÜ
+                if (reachedEnd)
+                {
+                    PlayerHealth -= enemy.DamageToPlayer;
+                    GameCanvas.Children.Remove(enemy.Appearance);
+                    enemies.RemoveAt(i);
+                    UpdateUI();
+
+                    // Kaybetme kontrolünü anlık tepki için burada tutabilirsin
+                    if (PlayerHealth <= 0)
+                    {
+                        gameLoop.Stop();
+                        spawnTimer.Stop();
+                        MessageBox.Show("OYUN BİTTİ!\nKAYBETTİN");
+                        return; // Metodu kır, aşağıya inmesin
+                    }
                 }
             }
+
+            if (enemies.Count == 0 && !spawnTimer.IsEnabled && rightSpawned >= wave2EachCount && topSpawned >= wave2EachCount)
+            {
+                gameLoop.Stop();
+                MessageBox.Show("OYUN BİTTİ!\nKAZANDIN!");
+            }
+
         }
         private void tower_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (tower.SelectedItem == null) return;
+            ComboBox cmb = sender as ComboBox;
+            if (cmb == null || cmb.SelectedItem == null) return;
 
-            string selectedTower = ((ComboBoxItem)tower.SelectedItem).Content.ToString();
+            ComboBoxItem item = cmb.SelectedItem as ComboBoxItem;
+            if (item == null) return;
+
+            string selectedTower = item.Content.ToString();
+            double x = Canvas.GetLeft(cmb) + 20;
+            double y = Canvas.GetTop(cmb) + 20;
+            string id = "T" + towers.Count;
 
             Tower newTower = null;
 
-            if (selectedTower == "StandardTower")
-                newTower = new StandardTower("StandardTower");
-
+            if (selectedTower == "ArcherTower")
+                newTower = new ArcherTower(id, x, y);
+            else if (selectedTower == "IceTower")
+            { 
+                newTower = new IceTower(id, x, y);
+            }
+            else if (selectedTower == "CannonTower")
+            {
+                newTower = new CannonTower(id, x, y);
+            }
+            // --- BURAYI EKLE ---
+            else if (selectedTower == "SorcererTower")
+            {
+                newTower = new SorcererTower(id, x, y);
+            }
             if (newTower != null)
             {
-                // ComboBox'un konumunu al
-                double x = Canvas.GetLeft(tower) + tower.Width / 2 - newTower.ellipse.Width / 2;
-                double y = Canvas.GetTop(tower) + tower.Height / 2 - newTower.ellipse.Height / 2;
-
-                Canvas.SetLeft(newTower.ellipse, x);
-                Canvas.SetTop(newTower.ellipse, y);
-
-                GM.Towers.Add(newTower);
-                GameCanvas.Children.Add(newTower.ellipse);
-                tower.Visibility = Visibility.Hidden;
+                if (PlayerMoney >= newTower.Cost)
+                {
+                    PlayerMoney -= newTower.Cost;
+                    towers.Add(newTower);
+                    GameCanvas.Children.Add(newTower.Appearance);
+                    newTower.UpdateVisual();
+                    UpdateUI();
+                    cmb.Visibility = Visibility.Hidden;
+                }
+                else
+                {
+                    MessageBox.Show("Yetersiz Para!");
+                }
             }
+            cmb.SelectedItem = null;
         }
 
+        private void UpdateUI()
+        {
+            if (PlayerHealthBar != null) PlayerHealthBar.Value = PlayerHealth;
+            if (HealthText != null) HealthText.Text = $"Can: {Math.Round(PlayerHealth)} | Para: {PlayerMoney}";
+        }
     }
 }
-    

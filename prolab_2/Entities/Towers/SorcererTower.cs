@@ -1,0 +1,43 @@
+﻿using System.Collections.Generic;
+using System.Windows.Media;
+using System.Windows.Shapes;
+
+namespace prolab_2
+{
+    public class SorcererTower : Tower
+    {
+        public SorcererTower(string id, double x, double y)
+            // Maliyet: 200, Menzil: 180, Hasar: 40, Hız: 2.0s
+            // Not: Atış hızı yavaştır ama zırhı yok sayar.
+            : base(id, "Sorcerer Tower", x, y, 200, 180, 50, 2.0)
+        {
+            // Görünüm: Mor renkli, mistik bir daire
+            Appearance = new Ellipse
+            {
+                Width = 50,
+                Height = 50,
+                Fill = Brushes.Purple,
+                Stroke = Brushes.Thistle,
+                StrokeThickness = 2
+            };
+            UpdateVisual();
+        }
+
+        // Saldırı Mantığı (Override)
+        public override void Attack(Enemy target, List<Enemy> allEnemies)
+        {
+            if (CurrentCooldown <= 0 && target != null)
+            {
+                // NORMAL HASAR: target.TakeDamage(Damage); (Zırhtan etkilenir)
+
+                // BÜYÜ HASARI (Magic Damage):
+                // Zırh hesaplaması yapan TakeDamage metodunu kullanmıyoruz.
+                // Direkt can değerinden düşüyoruz. Böylece Knight'ın zırhı işlemez.
+
+                target.CurrentHealth -= Damage;
+
+                CurrentCooldown = FireRate;
+            }
+        }
+    }
+}
