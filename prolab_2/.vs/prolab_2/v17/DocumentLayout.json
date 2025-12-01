@@ -3,15 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\enemies\\enemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\enemies\\enemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\enemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,19 +11,31 @@
       "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\base\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\enemies\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\towers\\archertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\archertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\enemies\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\enemies\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\enemies\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\towers\\sorcerertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\sorcerertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\enemies\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\enemies\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\enemies\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\towers\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\towers\\icetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\icetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\entities\\towers\\sorcerertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\sorcerertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|c:\\users\\asus\\documents\\github\\prolab_2\\prolab_2\\entities\\towers\\archertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:entities\\towers\\archertower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB45DEEB-8F7A-4A3E-93DA-9CCFBB407046}|prolab_2.csproj|solutionrelative:logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,26 +74,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IceTower.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\IceTower.cs",
-              "RelativeDocumentMoniker": "Entities\\Towers\\IceTower.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\IceTower.cs",
-              "RelativeToolTip": "Entities\\Towers\\IceTower.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAlwB4AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Knight.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Knight.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Knight.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Knight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:31:22.658Z",
+              "WhenOpened": "2025-12-01T12:50:23.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Goblin.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Goblin.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Goblin.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Goblin.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Goblin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T12:26:43.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemies.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Enemies.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Enemies.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Enemies.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Enemies.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T12:26:40.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SorcererTower.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\SorcererTower.cs",
+              "RelativeDocumentMoniker": "Entities\\Towers\\SorcererTower.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\SorcererTower.cs",
+              "RelativeToolTip": "Entities\\Towers\\SorcererTower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:19:42.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameObject.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Base\\GameObject.cs",
+              "RelativeDocumentMoniker": "Entities\\Base\\GameObject.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Base\\GameObject.cs",
+              "RelativeToolTip": "Entities\\Base\\GameObject.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:30:34.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:34:31.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Monster.cs",
+              "RelativeDocumentMoniker": "Entities\\Enemies\\Monster.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Monster.cs",
+              "RelativeToolTip": "Entities\\Enemies\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T12:50:24.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CannonTower.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\CannonTower.cs",
               "RelativeDocumentMoniker": "Entities\\Towers\\CannonTower.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\CannonTower.cs",
               "RelativeToolTip": "Entities\\Towers\\CannonTower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T01:31:21.868Z",
               "EditorCaption": ""
@@ -109,110 +177,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Base\\GameObject.cs",
-              "RelativeDocumentMoniker": "Entities\\Base\\GameObject.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Base\\GameObject.cs",
-              "RelativeToolTip": "Entities\\Base\\GameObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T00:30:34.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAAIcAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T14:34:31.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ArcherTower.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\ArcherTower.cs",
               "RelativeDocumentMoniker": "Entities\\Towers\\ArcherTower.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\ArcherTower.cs",
               "RelativeToolTip": "Entities\\Towers\\ArcherTower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:31:33.653Z",
+              "WhenOpened": "2025-12-01T14:11:50.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enemies.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Enemies.cs",
-              "RelativeDocumentMoniker": "Entities\\Enemies\\Enemies.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Enemies.cs",
-              "RelativeToolTip": "Entities\\Enemies\\Enemies.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:55:41.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Towers.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\Towers.cs",
-              "RelativeDocumentMoniker": "Entities\\Towers\\Towers.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\Towers.cs",
-              "RelativeToolTip": "Entities\\Towers\\Towers.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T00:31:22.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Monster.cs",
-              "RelativeDocumentMoniker": "Entities\\Enemies\\Monster.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Monster.cs",
-              "RelativeToolTip": "Entities\\Enemies\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:57:32.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Goblin.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Goblin.cs",
-              "RelativeDocumentMoniker": "Entities\\Enemies\\Goblin.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Goblin.cs",
-              "RelativeToolTip": "Entities\\Enemies\\Goblin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T02:01:38.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Knight.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Knight.cs",
-              "RelativeDocumentMoniker": "Entities\\Enemies\\Knight.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Enemies\\Knight.cs",
-              "RelativeToolTip": "Entities\\Enemies\\Knight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T02:01:38.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Logging.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Logging.cs",
               "RelativeDocumentMoniker": "Logging.cs",
@@ -220,33 +197,18 @@
               "RelativeToolTip": "Logging.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T02:00:38.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T02:00:38.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SorcererTower.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\SorcererTower.cs",
-              "RelativeDocumentMoniker": "Entities\\Towers\\SorcererTower.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\Entities\\Towers\\SorcererTower.cs",
-              "RelativeToolTip": "Entities\\Towers\\SorcererTower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:31:23.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\prolab_2\\prolab_2\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-07T14:34:32.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T14:34:32.626Z"
             }
           ]
         },

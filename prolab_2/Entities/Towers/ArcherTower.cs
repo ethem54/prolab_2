@@ -4,9 +4,8 @@
     {
         public ArcherTower(string id, double x, double y)
             // Maliyet: 50, Menzil: 150, Hasar: 10, Hız: 1.0s
-            : base(id, "OkcuKulesi", x, y, 50, 150, 10, 1.0)
+            : base(id, "OkcuKulesi", x, y, 50, 150, 10, 0.2)
         {
-            // ... (Görünüm kodları aynı kalabilir) ...
             Appearance = new System.Windows.Shapes.Ellipse
             {
                 Width = 50,

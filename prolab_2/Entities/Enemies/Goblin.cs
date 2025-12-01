@@ -6,17 +6,19 @@ namespace prolab_2
     public class Goblin : Enemy
     {
         public Goblin(string id, double x, double y)
-            // Can: 50, Zırh: 0, Hız: 8, Para: 10, Uçuyor mu: Hayır
-            : base(id, "Goblin Raider", x, y, 50, 0, 10, 10, false, 5)
+            : base(id, "Goblin", x, y, 50, 0, 8, 10, false, 5)
         {
-            Appearance = new Rectangle
+            // Önce şekli oluştur
+            var shape = new Rectangle
             {
                 Width = 25,
                 Height = 25,
                 Fill = Brushes.Orange,
                 Stroke = Brushes.Black
             };
-            UpdateVisual();
+
+            // Sonra bu şekli Can Barı sistemine gönder
+            SetupVisual(shape);
         }
     }
 }

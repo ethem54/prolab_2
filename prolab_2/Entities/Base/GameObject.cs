@@ -1,38 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;          // Point için
-using System.Windows.Shapes;   // Shape (Rectangle, Ellipse) için
-using System.Windows.Controls; // Canvas işlemleri için
+﻿using System.Windows;
+using System.Windows.Controls;
 
 namespace prolab_2
 {
-    // Eski "Object" sınıfının yeni adı: GameObject
     public abstract class GameObject
     {
         public string ID { get; set; }
         public string Name { get; set; }
-        public Point Location { get; set; }     // Konum (X, Y)
-        public Shape Appearance { get; set; }   // Görünüm (Ekrandaki Şekil)
+        public Point Location { get; set; }
 
-        // Constructor (Kurucu)
+        // DÜZELTME 1: UIElement yerine FrameworkElement (Width/Height özelliği için)
+        public FrameworkElement Appearance { get; set; }
+
         protected GameObject(string id, string name, double x, double y)
         {
             ID = id;
             Name = name;
             Location = new Point(x, y);
         }
+
+        // Bu metot hem Düşman hem Kule için çalışır, şekli tam ortaya koyar.
         public void UpdateVisual()
         {
             if (Appearance != null)
             {
-                // Şekli tam merkezinden konumlandırır
-                Canvas.SetLeft(Appearance, Location.X - Appearance.Width / 2);
-                Canvas.SetTop(Appearance, Location.Y - Appearance.Height / 2);
+                // Genişliğin yarısını çıkararak MERKEZİ konuma oturtuyoruz
+                Canvas.SetLeft(Appearance, Location.X - Appearance.ActualWidth / 2); // ActualWidth daha güvenlidir
+                Canvas.SetTop(Appearance, Location.Y - Appearance.ActualHeight / 2);
+
+                Canvas.SetZIndex(Appearance, (int)Location.Y);
             }
         }
+
         public abstract void Update(double deltaTime);
     }
 }

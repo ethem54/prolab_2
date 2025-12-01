@@ -9,7 +9,7 @@ namespace prolab_2
         public SorcererTower(string id, double x, double y)
             // Maliyet: 200, Menzil: 180, Hasar: 40, Hız: 2.0s
             // Not: Atış hızı yavaştır ama zırhı yok sayar.
-            : base(id, "Sorcerer Tower", x, y, 200, 180, 50, 2.0)
+            : base(id, "Sorcerer Tower", x, y, 200, 200, 50, 1.0)
         {
             // Görünüm: Mor renkli, mistik bir daire
             Appearance = new Ellipse

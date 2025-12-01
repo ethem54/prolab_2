@@ -132,11 +132,11 @@ namespace prolab_2
             if (currentWave == 1)
             {
 
-                if (wave1SpawnCount < 5)
-                    SpawnEnemy(PathFromRight, "Goblin"); // 2 tane Goblin
+                if (wave1SpawnCount < 6)
+                    SpawnEnemy(PathFromRight, "Goblin");
                 wave1SpawnCount++;
 
-                if (wave1SpawnCount >= 4) // Toplam 4 düşman gönderdik
+                if (wave1SpawnCount >= 5)
                 {
                     spawnTimer.Stop();
                     currentWave = 0;
@@ -146,7 +146,6 @@ namespace prolab_2
             }
             else if (currentWave == 2)
             {
-                // Karışık gönderim mantığın kalabilir, ama log ekle
                 if (topSpawned < 5)
                 {
                     SpawnEnemy(PathFromTop, "Knight");
@@ -157,7 +156,7 @@ namespace prolab_2
                     SpawnEnemy(PathFromRight, "Goblin");
                     rightSpawned++;
                 }
-                else if (monsterSpawned < 3) // Sayıları dengeleyebilirsin
+                else if (monsterSpawned < 3)
                 {
                     SpawnEnemy(PathFromRight, "Monster");
                     monsterSpawned++;
