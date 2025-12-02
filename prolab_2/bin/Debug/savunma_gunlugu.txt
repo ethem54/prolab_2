@@ -695,3 +695,344 @@ Kule 'T2', 'E6' hedefine atış yaptı. Hasar: 5
 Kule 'T2', 'E6' hedefine atış yaptı. Hasar: 5
 Kule 'T2', 'E6' hedefine atış yaptı. Hasar: 5
 Kule 'T2', 'E6' hedefine atış yaptı. Hasar: 5
+Dalga 1 gönderimi tamamlandı.
+Dalga 1 gönderimi tamamlandı.
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Dalga 1 gönderimi tamamlandı.
+Dalga 1 gönderimi tamamlandı.
+Dalga 1 gönderimi tamamlandı.
+Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+Dalga 2 gönderimi tamamlandı.
+Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 10
+Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 10
+Dalga 1 gönderimi tamamlandı.
+Dalga 2 gönderimi tamamlandı.
+Dalga 1 gönderimi tamamlandı.
+Dalga 2 gönderimi tamamlandı.
+Dalga 1 gönderimi tamamlandı.
+Dalga 2 gönderimi tamamlandı.
+Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+Dalga 1 gönderimi tamamlandı.
+Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+Kule 'T0' alan atışı yaptı. Merkez: 'E2'
+Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 10
+Kule 'T0' alan atışı yaptı. Merkez: 'E4'
+Kule 'T1', 'E6' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E6' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E6' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E6' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E6' hedefine atış yaptı. Hasar: 10
+Kule 'T0' alan atışı yaptı. Merkez: 'E3'
+Kule 'T1', 'E7' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E7' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E7' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E7' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E7' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Dalga 2 gönderimi tamamlandı.
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T0' alan atışı yaptı. Merkez: 'E4'
+Kule 'T1', 'E8' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T1', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T0' alan atışı yaptı. Merkez: 'E9'
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T3', 'E3' hedefini yavaşlattı ve vurdu.
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E9' hedefine atış yaptı. Hasar: 10
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T2', 'E10' hedefine atış yaptı. Hasar: 10
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T3', 'E9' hedefini yavaşlattı ve vurdu.
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+Kule 'T3', 'E5' hedefini yavaşlattı ve vurdu.
+Kule 'T3', 'E5' hedefini yavaşlattı ve vurdu.
+[05:16:17] Oyun başlatıldı. Düşmanlar bekleniyor...
+[05:16:26] Dalga 1 gönderimi tamamlandı.
+[05:16:27] Kule 'T1', 'E1' hedefini yavaşlattı ve vurdu.
+[05:16:30] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:16:30] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:16:31] Kule 'T1', 'E4' hedefini yavaşlattı ve vurdu.
+[05:16:31] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:16:31] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:16:32] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:16:33] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:16:33] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:16:34] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:16:34] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:16:35] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:16:35] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[05:16:36] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[05:16:36] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[05:16:37] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[05:16:37] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 10
+[05:16:38] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 10
+[05:16:39] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 10
+[05:16:39] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 10
+[05:16:40] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:16:41] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:16:41] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:16:42] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:16:42] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 10
+[05:16:43] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:44] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:44] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:45] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:45] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:46] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:46] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:47] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:47] Kule 'T2' alan atışı yaptı. Merkez: 'E3'
+[05:16:47] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:47] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:48] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:48] Kule 'T1', 'E6' hedefini yavaşlattı ve vurdu.
+[05:16:48] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:49] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:49] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:49] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:50] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:50] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:51] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[05:16:51] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 5
+[05:16:52] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 5
+[05:16:52] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:52] Kule 'T1', 'E7' hedefini yavaşlattı ve vurdu.
+[05:16:53] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:53] Kule 'T2' alan atışı yaptı. Merkez: 'E5'
+[05:16:53] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:53] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 5
+[05:16:54] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 5
+[05:16:54] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 5
+[05:16:54] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:55] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:55] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:56] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:56] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:56] Kule 'T1', 'E9' hedefini yavaşlattı ve vurdu.
+[05:16:56] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:57] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:57] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:58] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:58] Dalga 2 gönderimi tamamlandı.
+[05:16:58] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:58] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:58] Kule 'T2' alan atışı yaptı. Merkez: 'E4'
+[05:16:59] Kule 'T0', 'E5' hedefine atış yaptı. Hasar: 5
+[05:16:59] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[05:17:00] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[05:17:00] Kule 'T1', 'E11' hedefini yavaşlattı ve vurdu.
+[05:17:00] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[05:17:00] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[05:17:01] Kule 'T0', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:01] Kule 'T0', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:01] Kule 'T0', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:02] Kule 'T0', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:03] Kule 'T0', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:03] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:17:03] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:17:04] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:17:04] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:17:04] Kule 'T2' alan atışı yaptı. Merkez: 'E4'
+[05:17:05] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:17:05] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:17:05] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:17:06] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:17:07] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:17:07] Kule 'T0', 'E11' hedefine atış yaptı. Hasar: 10
+[05:17:08] Kule 'T0', 'E11' hedefine atış yaptı. Hasar: 10
+[05:17:08] Kule 'T3', 'E6' hedefine atış yaptı. Hasar: 10
+[05:17:08] Kule 'T0', 'E11' hedefine atış yaptı. Hasar: 10
+[05:17:08] Kule 'T3', 'E6' hedefine atış yaptı. Hasar: 10
+[05:17:09] Kule 'T0', 'E11' hedefine atış yaptı. Hasar: 10
+[05:17:09] Kule 'T3', 'E8' hedefine atış yaptı. Hasar: 10
+[05:17:09] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:10] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:10] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:10] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:11] Kule 'T3', 'E5' hedefine atış yaptı. Hasar: 5
+[05:17:11] Kule 'T2' alan atışı yaptı. Merkez: 'E5'
+[05:17:11] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:12] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:12] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:13] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:17:14] Kule 'T3', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:14] Kule 'T3', 'E5' hedefine atış yaptı. Hasar: 5
+[05:17:14] Kule 'T3', 'E5' hedefine atış yaptı. Hasar: 5
+[05:17:15] Kule 'T3', 'E5' hedefine atış yaptı. Hasar: 5
+[05:17:16] Kule 'T3', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:16] Kule 'T3', 'E10' hedefine atış yaptı. Hasar: 10
+[05:17:17] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[05:18:00] Oyun başlatıldı. Düşmanlar bekleniyor...
+[05:18:11] Kule 'T1', 'E1' hedefini yavaşlattı ve vurdu.
+[05:18:14] Dalga 1 gönderimi tamamlandı.
+[05:18:18] Kule 'T1', 'E2' hedefini yavaşlattı ve vurdu.
+[05:18:21] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:18:22] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:18:22] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:18:23] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:18:23] Kule 'T1', 'E5' hedefini yavaşlattı ve vurdu.
+[05:18:24] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[05:18:24] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:18:24] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:18:25] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:18:25] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:18:26] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[05:18:26] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[05:18:26] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:18:27] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:18:28] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:18:28] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[05:18:28] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:29] Kule 'T2' alan atışı yaptı. Merkez: 'E6'
+[05:18:29] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:29] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:30] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:30] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:30] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:31] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:31] Kule 'T1', 'E8' hedefini yavaşlattı ve vurdu.
+[05:18:31] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:32] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:32] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:32] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:33] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 5
+[05:18:33] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:34] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:34] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:34] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:34] Kule 'T2' alan atışı yaptı. Merkez: 'E1'
+[05:18:35] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:35] Kule 'T1', 'E9' hedefini yavaşlattı ve vurdu.
+[05:18:35] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:36] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:36] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:37] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:37] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 5
+[05:18:38] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:39] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:39] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:39] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:40] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:40] Kule 'T1', 'E11' hedefini yavaşlattı ve vurdu.
+[05:18:40] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:41] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:41] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:41] Dalga 2 gönderimi tamamlandı.
+[05:18:41] Kule 'T2' alan atışı yaptı. Merkez: 'E6'
+[05:18:41] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:42] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:42] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:43] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 5
+[05:18:43] Kule 'T0', 'E10' hedefine atış yaptı. Hasar: 10
+[05:18:43] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:18:44] Kule 'T1', 'E14' hedefini yavaşlattı ve vurdu.
+[05:18:44] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:18:44] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:18:44] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[05:18:45] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:18:45] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:18:46] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:18:46] Kule 'T0', 'E12' hedefine atış yaptı. Hasar: 10
+[05:18:46] Kule 'T0', 'E13' hedefine atış yaptı. Hasar: 10
+[05:18:47] Kule 'T0', 'E13' hedefine atış yaptı. Hasar: 10
+[05:18:47] Kule 'T2' alan atışı yaptı. Merkez: 'E6'
+[05:18:47] Kule 'T0', 'E11' hedefine atış yaptı. Hasar: 10
+[05:18:47] Kule 'T0', 'E11' hedefine atış yaptı. Hasar: 10
+[05:18:48] Kule 'T0', 'E15' hedefine atış yaptı. Hasar: 10
+[05:18:48] Kule 'T0', 'E15' hedefine atış yaptı. Hasar: 10
+[05:18:49] Kule 'T0', 'E15' hedefine atış yaptı. Hasar: 10
+[05:18:49] Kule 'T0', 'E15' hedefine atış yaptı. Hasar: 10
+[05:18:49] Kule 'T0', 'E15' hedefine atış yaptı. Hasar: 10
+[05:18:50] Kule 'T0', 'E14' hedefine atış yaptı. Hasar: 10
+[05:18:50] Kule 'T0', 'E14' hedefine atış yaptı. Hasar: 10
+[05:18:51] Kule 'T0', 'E14' hedefine atış yaptı. Hasar: 10
+[05:18:51] Kule 'T0', 'E14' hedefine atış yaptı. Hasar: 10
+[05:18:52] Kule 'T3', 'E10' hedefini yavaşlattı ve vurdu.
+[05:18:53] Kule 'T2' alan atışı yaptı. Merkez: 'E12'
+[05:18:55] Kule 'T3', 'E7' hedefini yavaşlattı ve vurdu.
+[05:18:59] Kule 'T2' alan atışı yaptı. Merkez: 'E7'
+[05:19:00] Kule 'T3', 'E7' hedefini yavaşlattı ve vurdu.

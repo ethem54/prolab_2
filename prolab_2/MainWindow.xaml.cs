@@ -21,15 +21,15 @@ namespace prolab_2
         double PlayerHealth = 100;
         int PlayerMoney = 200;
 
-        bool waveCheck = false;      
-        bool firstTick = false;       
-        int currentWave = 0;        
+        bool waveCheck = false;
+        bool firstTick = false;
+        int currentWave = 0;
 
-        int rightSpawned = 0; 
-        int topSpawned = 0;  
+        int rightSpawned = 0;
+        int topSpawned = 0;
         int monsterSpawned = 0;
 
-        int wave1Count = 5;    
+        int wave1Count = 5;
         int wave2EachCount = 5;
 
         int wave1SpawnCount = 0;
@@ -52,27 +52,41 @@ namespace prolab_2
             buttonTimer = new DispatcherTimer();
             buttonTimer.Interval = TimeSpan.FromSeconds(5);
             buttonTimer.Tick += ButtonTimer_Tick;
+            // LOGGER BAĞLANTISI:
+            // Logger her mesaj attığında "AddLogToScreen" metodunu çalıştır.
+            Logger.OnLogReceived += AddLogToScreen;
+
+            // Başlangıç mesajı
+            Logger.Log("Oyun başlatıldı. Düşmanlar bekleniyor...");
         }
 
         private void SetupPaths()
         {
-            PathFromRight.Add(new Point(950, 200));
+            PathFromRight.Add(new Point(960, 120));  //960,120 900,120 800,130 700,250 630,300 590,330 400, 380 300, 400 220, 420 80, 480
+            PathFromRight.Add(new Point(900, 120));
+            PathFromRight.Add(new Point(800, 130));
             PathFromRight.Add(new Point(700, 250));
-            PathFromRight.Add(new Point(400, 300));
-            PathFromRight.Add(new Point(150, 300));
-            PathFromRight.Add(new Point(150, 400));
+            PathFromRight.Add(new Point(630, 300));
+            PathFromRight.Add(new Point(590, 330));
+            PathFromRight.Add(new Point(400, 380));
+            PathFromRight.Add(new Point(300, 400));
+            PathFromRight.Add(new Point(220, 420));
+            PathFromRight.Add(new Point(80, 480));
 
-            PathFromTop.Add(new Point(500, 10));
-            PathFromTop.Add(new Point(450, 200));
-            PathFromTop.Add(new Point(400, 300));
-            PathFromTop.Add(new Point(150, 300));
-            PathFromTop.Add(new Point(150, 400));
+            PathFromTop.Add(new Point(460, 25));    //460,25 510,200 540, 300 490, 350 400, 380 300, 400 220, 420 80, 480
+            PathFromTop.Add(new Point(510, 200));
+            PathFromTop.Add(new Point(540, 300));
+            PathFromTop.Add(new Point(490, 350));
+            PathFromTop.Add(new Point(400, 380));
+            PathFromTop.Add(new Point(300, 400));
+            PathFromTop.Add(new Point(220, 420));
+            PathFromTop.Add(new Point(80, 480));
         }
         private void btnEnemy_Click(object sender, RoutedEventArgs e)
         {
             btnEnemy.Visibility = Visibility.Hidden;
             btnEnemy2.Visibility = Visibility.Hidden;
- 
+
             if (currentWave == 0)
             {
                 if (!waveCheck)
@@ -83,7 +97,7 @@ namespace prolab_2
                 {
                     currentWave = 2;
                 }
- 
+
                 rightSpawned = 0;
                 topSpawned = 0;
                 spawnTimer.Start();
@@ -267,7 +281,7 @@ namespace prolab_2
             if (selectedTower == "ArcherTower")
                 newTower = new ArcherTower(id, x, y);
             else if (selectedTower == "IceTower")
-            { 
+            {
                 newTower = new IceTower(id, x, y);
             }
             else if (selectedTower == "CannonTower")
@@ -297,11 +311,32 @@ namespace prolab_2
             }
             cmb.SelectedItem = null;
         }
-
         private void UpdateUI()
         {
             if (PlayerHealthBar != null) PlayerHealthBar.Value = PlayerHealth;
             if (HealthText != null) HealthText.Text = $"Can: {Math.Round(PlayerHealth)} | Para: {PlayerMoney}";
+        }
+        private void AddLogToScreen(string message)
+        {
+            // Arayüz (UI) güncellemesi
+            // Dispatcher kullanıyoruz çünkü Logger farklı bir thread'den çağrılabilir.
+            Dispatcher.Invoke(() =>
+            {
+                // Listeye ekle
+                GameLogList.Items.Add(message);
+
+                // Otomatik aşağı kaydır (Her zaman en son mesajı göster)
+                if (GameLogList.Items.Count > 0)
+                {
+                    GameLogList.ScrollIntoView(GameLogList.Items[GameLogList.Items.Count - 1]);
+                }
+
+                // İsteğe bağlı: Çok şişmesin diye eski mesajları silebilirsin
+                if (GameLogList.Items.Count > 50)
+                {
+                    GameLogList.Items.RemoveAt(0);
+                }
+            });
         }
     }
 }

@@ -30,3 +30,7 @@ C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\obj\Debug\prolab_2.g.resources
 C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\obj\Debug\prolab_2.Properties.Resources.resources
 C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\obj\Debug\prolab_2.csproj.GenerateResource.cache
 C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\obj\Debug\prolab_2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\bin\Debug\WpfAnimatedGif.dll
+C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\bin\Debug\WpfAnimatedGif.xml
+C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\obj\Debug\prolab_2.csproj.Up2Date
