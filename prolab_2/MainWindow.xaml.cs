@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Threading;
 
 namespace prolab_2
@@ -19,7 +21,7 @@ namespace prolab_2
         List<Point> PathFromTop = new List<Point>();
 
         double PlayerHealth = 100;
-        int PlayerMoney = 200;
+        int PlayerMoney = 2000;
 
         bool waveCheck = false;
         bool firstTick = false;
@@ -29,7 +31,7 @@ namespace prolab_2
         int topSpawned = 0;
         int monsterSpawned = 0;
 
-        int wave1Count = 5;
+        int waveCount = 0;
         int wave2EachCount = 5;
 
         int wave1SpawnCount = 0;
@@ -52,11 +54,8 @@ namespace prolab_2
             buttonTimer = new DispatcherTimer();
             buttonTimer.Interval = TimeSpan.FromSeconds(5);
             buttonTimer.Tick += ButtonTimer_Tick;
-            // LOGGER BAĞLANTISI:
-            // Logger her mesaj attığında "AddLogToScreen" metodunu çalıştır.
-            Logger.OnLogReceived += AddLogToScreen;
 
-            // Başlangıç mesajı
+            Logger.OnLogReceived += AddLogToScreen;
             Logger.Log("Oyun başlatıldı. Düşmanlar bekleniyor...");
         }
 
@@ -86,7 +85,7 @@ namespace prolab_2
         {
             btnEnemy.Visibility = Visibility.Hidden;
             btnEnemy2.Visibility = Visibility.Hidden;
-
+            UpdateUI();
             if (currentWave == 0)
             {
                 if (!waveCheck)
@@ -101,16 +100,19 @@ namespace prolab_2
                 rightSpawned = 0;
                 topSpawned = 0;
                 spawnTimer.Start();
+                UpdateUI();
             }
 
             if (!firstTick)
             {
                 buttonTimer.Start();
+                UpdateUI();
             }
 
             if (!gameLoop.IsEnabled)
             {
                 gameLoop.Start();
+                UpdateUI();
             }
         }
         private void btnEnemy2_Click(object sender, RoutedEventArgs e)
@@ -119,18 +121,20 @@ namespace prolab_2
             btnEnemy2.Visibility = Visibility.Hidden;
 
             btnEnemy_Click(sender, e);
-
+            UpdateUI();
             if (currentWave == 0)
             {
                 currentWave = 2;
                 rightSpawned = 0;
                 topSpawned = 0;
                 spawnTimer.Start();
+                UpdateUI();
             }
 
             if (!gameLoop.IsEnabled)
             {
                 gameLoop.Start();
+                UpdateUI();
             }
         }
         private void ButtonTimer_Tick(object sender, EventArgs e)
@@ -145,7 +149,7 @@ namespace prolab_2
         {
             if (currentWave == 1)
             {
-
+                waveCount = 1;
                 if (wave1SpawnCount < 6)
                     SpawnEnemy(PathFromRight, "Goblin");
                 wave1SpawnCount++;
@@ -160,6 +164,7 @@ namespace prolab_2
             }
             else if (currentWave == 2)
             {
+                waveCount = 2;
                 if (topSpawned < 5)
                 {
                     SpawnEnemy(PathFromTop, "Knight");
@@ -214,6 +219,20 @@ namespace prolab_2
                 // Not: Attack metodunu güncellediğimiz için (target, enemies) şeklinde çağırıyoruz
                 var target = tower.GetTarget(enemies);
                 if (target != null) tower.Attack(target, enemies);
+            }
+            foreach (var tower in towers)
+            {
+                var target = tower.GetTarget(enemies);
+                if (target != null)
+                {
+                    bool enemyLeft = target.Location.X < tower.X;
+                    bool enemyRight = target.Location.X > tower.X;
+                    tower.UpdateTowerImage(enemyLeft, enemyRight);
+                }
+                else
+                {
+                    tower.UpdateTowerImage(false, false); // düşman yok → idle
+                }
             }
 
             // --- 2. DÜŞMANLARIN GÜNCELLENMESİ ---
@@ -313,8 +332,12 @@ namespace prolab_2
         }
         private void UpdateUI()
         {
-            if (PlayerHealthBar != null) PlayerHealthBar.Value = PlayerHealth;
-            if (HealthText != null) HealthText.Text = $"Can: {Math.Round(PlayerHealth)} | Para: {PlayerMoney}";
+            if (HealthText != null) HealthText.Text = $"Can: {Math.Round(PlayerHealth)} | Para: {PlayerMoney} | Dalga: {currentWave}";
+            double barWidth = (PlayerHealth / 100.0) * 150;
+
+            // Genişlik eksiye düşerse hata vermesin
+            if (barWidth < 0) barWidth = 0;
+            PlayerHealthRect.Width = barWidth;
         }
         private void AddLogToScreen(string message)
         {
@@ -337,6 +360,50 @@ namespace prolab_2
                     GameLogList.Items.RemoveAt(0);
                 }
             });
+        }
+        private void BtnStartGame_Click(object sender, RoutedEventArgs e)
+        {
+            BtnStartGame.Visibility = Visibility.Collapsed;
+
+            // 2. Kapıların ne kadar kayacağını hesapla (Ekranın yarısı kadar)
+            // IntroLayer bizim ana giriş Grid'imizdi.
+            double doorWidth = IntroLayer.ActualWidth / 2;
+
+            // --- SOL KAPI ANİMASYONU (Sola Kayan) ---
+            DoubleAnimation animLeft = new DoubleAnimation();
+            animLeft.To = -doorWidth; // Eksi yöne (Sola) git
+            animLeft.Duration = TimeSpan.FromSeconds(2); // 2 saniye sürsün
+                                                         // Easing: Kapı yavaşça hızlanıp yavaşça dursun (Daha doğal görünür)
+            animLeft.EasingFunction = new PowerEase { EasingMode = EasingMode.EaseInOut };
+
+            // --- SAĞ KAPI ANİMASYONU (Sağa Kayan) ---
+            DoubleAnimation animRight = new DoubleAnimation();
+            animRight.To = doorWidth; // Artı yöne (Sağa) git
+            animRight.Duration = TimeSpan.FromSeconds(2);
+            animRight.EasingFunction = new PowerEase { EasingMode = EasingMode.EaseInOut };
+
+            // --- ANİMASYONLARI UYGULA ---
+            // XAML'da RenderTransform içine TranslateTransform koymuştuk, onu alıp oynatıyoruz.
+            TranslateTransform leftTrans = LeftDoor.RenderTransform as TranslateTransform;
+            TranslateTransform rightTrans = RightDoor.RenderTransform as TranslateTransform;
+
+            // (Hata önlemi: Eğer XAML'da transform yoksa burada oluştururuz)
+            if (leftTrans == null) { leftTrans = new TranslateTransform(); LeftDoor.RenderTransform = leftTrans; }
+            if (rightTrans == null) { rightTrans = new TranslateTransform(); RightDoor.RenderTransform = rightTrans; }
+
+            leftTrans.BeginAnimation(TranslateTransform.XProperty, animLeft);
+            rightTrans.BeginAnimation(TranslateTransform.XProperty, animRight);
+
+            // --- TEMİZLİK (Animasyon bitince Giriş Ekranını Yok Et) ---
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(2); // Animasyon süresi kadar bekle
+            timer.Tick += (s, args) =>
+            {
+                timer.Stop();
+                IntroLayer.Visibility = Visibility.Collapsed; // Giriş ekranını tamamen kaldır
+                Logger.Log("Kapılar açıldı, oyun sahnesi hazır.");
+            };
+            timer.Start();
         }
     }
 }

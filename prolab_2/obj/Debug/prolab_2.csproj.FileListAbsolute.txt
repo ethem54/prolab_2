@@ -34,3 +34,4 @@ C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\bin\Debug\WpfAnimatedGif.dll
 C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\bin\Debug\WpfAnimatedGif.pdb
 C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\bin\Debug\WpfAnimatedGif.xml
 C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\obj\Debug\prolab_2.csproj.Up2Date
+C:\Users\ASUS\Documents\GitHub\prolab_2\prolab_2\obj\Debug\prolab_2_Content.g.cs

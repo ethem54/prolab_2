@@ -7,6 +7,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WpfAnimatedGif;
 
+
 namespace prolab_2
 {
     public abstract class Enemy : GameObject
@@ -19,7 +20,7 @@ namespace prolab_2
         public int Bounty { get; protected set; }
         public double DamageToPlayer { get; protected set; }
         public bool IsFlying { get; protected set; }
-
+        public virtual bool IsChampion => false;
         public List<Point> AssignedPath { get; set; }
 
         protected int WayPointIndex { get; set; } = 0;
@@ -27,9 +28,11 @@ namespace prolab_2
         protected double SlowDuration;
 
         // --- GÖRSEL BİLEŞENLER (Burada tanımlı olmaları ŞART) ---
+        protected Image EnemySprite;
+        protected Rectangle IceOverlay;
         protected ProgressBar HealthBar;
+        protected ProgressBar MaxHealthBar;
         protected StackPanel Container; // <-- İşte hatayı çözen satır bu!
-
         protected Enemy(string id, string name, double x, double y, double maxHealth, int armor, double speed, int bounty, bool isFlying, double damageToPlayer) 
             : base(id, name, x, y)
         {
@@ -46,49 +49,75 @@ namespace prolab_2
         // --- GÖRSEL KURULUMU ---
         protected void SetupVisual()
         {
-            double spriteSize = 40; // Boyutu buradan ayarlayabilirsin
+            double spriteSize = 40;
+            Grid healthLayer = new Grid();
+            healthLayer.Width = spriteSize;
+            healthLayer.Height = IsChampion ? 10 : 6;
 
-            // 1. Kapsayıcı (Kutu)
+            // ✅ MAKSİMUM CAN BAR (ALTA)
+            MaxHealthBar = new ProgressBar();
+            MaxHealthBar.Minimum = 0;
+            MaxHealthBar.Maximum = MaxHealth;
+            MaxHealthBar.Value = MaxHealth;
+            MaxHealthBar.Height = IsChampion ? 10 : 6;
+            MaxHealthBar.Width = spriteSize;
+            MaxHealthBar.Foreground = Brushes.DarkSlateGray;
+            MaxHealthBar.Background = Brushes.Black;
+            MaxHealthBar.BorderBrush = Brushes.Black;
+            MaxHealthBar.BorderThickness = new Thickness(1);
+
+            // ✅ ANA DİKEY KAPSAYICI (CAN + GÖRSEL)
             Container = new StackPanel();
             Container.Width = spriteSize;
 
-            // 2. Hareketli Resim (GIF) Oluşturma
-            Image enemySprite = new Image();
-            enemySprite.Width = spriteSize;
-            enemySprite.Height = spriteSize;
-
-            // Piksel çizim olduğu için bulanıklaşmayı engelliyoruz
-            RenderOptions.SetBitmapScalingMode(enemySprite, BitmapScalingMode.NearestNeighbor);
-
-            // --- GIF OYNATMA KISMI ---
-            // Dosya uzantısını .gif yaptık
-            string imagePath = $"pack://application:,,,/prolab_2;component/Images/{ImageName}.gif";
-
-            // Kütüphaneyi kullanarak resmi yüklüyoruz
-            var imageUri = new Uri(imagePath);
-            var bitmap = new BitmapImage(imageUri);
-
-            // İşte burası GIF'in oynamasını sağlayan komut:
-            ImageBehavior.SetAnimatedSource(enemySprite, bitmap);
-
-            // 3. Can Barı (Aynı kalıyor)
+            // ✅ CAN BAR
             HealthBar = new ProgressBar();
             HealthBar.Minimum = 0;
             HealthBar.Maximum = MaxHealth;
             HealthBar.Value = CurrentHealth;
-            HealthBar.Height = 6;
+            HealthBar.Height = IsChampion ? 10 : 6;
             HealthBar.Width = spriteSize;
             HealthBar.Foreground = Brushes.Red;
-            HealthBar.Background = Brushes.White;
-            HealthBar.BorderBrush = Brushes.Black;
+            HealthBar.Background = Brushes.Transparent;
+
+            healthLayer.Children.Add(MaxHealthBar); // ALTTA
+            healthLayer.Children.Add(HealthBar);    // ÜSTTE
+
             HealthBar.BorderThickness = new Thickness(1);
             HealthBar.Margin = new Thickness(0, 0, 0, 2);
 
-            // 4. Ekrana Ekleme
-            Container.Children.Add(HealthBar);   // Üste bar
-            Container.Children.Add(enemySprite); // Alta hareketli GIF
 
-            // GameObject'e bildiriyoruz
+            Grid imageLayer = new Grid();
+            imageLayer.Width = spriteSize;
+            imageLayer.Height = spriteSize;
+
+            EnemySprite = new Image();
+            EnemySprite.Width = spriteSize;
+            EnemySprite.Height = spriteSize;
+
+            RenderOptions.SetBitmapScalingMode(EnemySprite, BitmapScalingMode.NearestNeighbor);
+
+            string imagePath = $"pack://application:,,,/prolab_2;component/Images/{ImageName}.gif";
+            var imageUri = new Uri(imagePath);
+            var bitmap = new BitmapImage(imageUri);
+
+            ImageBehavior.SetAnimatedSource(EnemySprite, bitmap);
+
+            IceOverlay = new Rectangle();
+            IceOverlay.Width = spriteSize;
+            IceOverlay.Height = spriteSize;
+            IceOverlay.Fill = new SolidColorBrush(Color.FromArgb(140, 0, 160, 255));
+            IceOverlay.Visibility = Visibility.Hidden;
+
+            imageLayer.Children.Add(EnemySprite);  // ALTTA
+            imageLayer.Children.Add(IceOverlay);   // ÜSTTE
+
+            // ✅ ÖNCE CAN BAR
+            Container.Children.Add(healthLayer);
+
+            // ✅ SONRA DÜŞMAN SPRITE
+            Container.Children.Add(imageLayer);
+
             this.Appearance = Container;
 
             UpdateEnemyVisual();
@@ -115,6 +144,7 @@ namespace prolab_2
         {
             CurrentSpeed = Speed * (1.0 - percentage);
             SlowDuration = duration;
+            SetFrozenVisual(true);
         }
 
         public bool Move(List<Point> path, double deltaTime)
@@ -148,7 +178,10 @@ namespace prolab_2
             if (SlowDuration > 0)
             {
                 SlowDuration -= deltaTime;
-                if (SlowDuration <= 0) CurrentSpeed = Speed;
+                if (SlowDuration <= 0) {  
+                CurrentSpeed = Speed;
+                SetFrozenVisual(false);
+                }
             }
 
             // Pozisyonu ve Z-Index'i güncelle
@@ -166,11 +199,20 @@ namespace prolab_2
             Canvas.SetTop(Container, Location.Y - Container.ActualHeight / 2);
 
             // 2. Derinlik (Z-Index) Ayarı - Öndekiler üstte görünsün
-            Canvas.SetZIndex(Container, (int)Location.Y);
+            Canvas.SetZIndex(Container, 999);
         }
         public virtual string ImageName
         {
             get { return "default_enemy"; } // Eğer özel resim yoksa bunu kullanır
+        }
+        protected void SetFrozenVisual(bool isFrozen)
+        {
+            if (IceOverlay == null) return;
+
+            if (isFrozen)
+                IceOverlay.Visibility = Visibility.Visible;   // ❄️ MAVİYİ AÇ
+            else
+                IceOverlay.Visibility = Visibility.Hidden;    // 🔥 KAPAT
         }
     }
 }

@@ -10,6 +10,8 @@ namespace prolab_2
         {
             SetupVisual();
         }
+        public override bool IsChampion => true;
+
         public override string ImageName => "goblinn";
     }
 }

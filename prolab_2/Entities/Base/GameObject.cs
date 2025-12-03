@@ -28,7 +28,7 @@ namespace prolab_2
                 Canvas.SetLeft(Appearance, Location.X - Appearance.ActualWidth / 2); // ActualWidth daha güvenlidir
                 Canvas.SetTop(Appearance, Location.Y - Appearance.ActualHeight / 2);
 
-                Canvas.SetZIndex(Appearance, (int)Location.Y);
+                Canvas.SetZIndex(Appearance, 99);
             }
         }
 

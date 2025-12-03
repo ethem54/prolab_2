@@ -131,5 +131,23 @@
   <ItemGroup>
     <Resource Include="Images\knightt.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\templatee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\begintemp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\gate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\goblinnn.gif" />
+    <Resource Include="Images\sag.png" />
+    <Resource Include="Images\sol.png" />
+    <Resource Include="Images\orta.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

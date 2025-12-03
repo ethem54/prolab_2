@@ -12,6 +12,14 @@ namespace prolab_2
         public double Damage { get; protected set; }
         public double FireRate { get; protected set; }
         public double CurrentCooldown { get; set; } = 0;
+        public double X => Location.X;
+        public double Y => Location.Y;
+
+        // Tower görüntü güncelleme için virtual method
+        public virtual void UpdateTowerImage(bool enemyLeft, bool enemyRight)
+        {
+            // Base sınıfta boş bırakıyoruz, subclass override edecek
+        }
 
         protected Tower(string id, string name, double x, double y, int cost, double range, double damage, double fireRate)
             : base(id, name, x, y)
