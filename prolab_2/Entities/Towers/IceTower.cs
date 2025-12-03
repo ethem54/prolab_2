@@ -1,23 +1,42 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Controls;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 namespace prolab_2
 {
+    
+
     public class IceTower : Tower
     {
+        private Image towerImage;
+
+        // Durum resimleri
+        private string idleImage = "pack://application:,,,/prolab_2;component/Images/ortai.png";
+        private string lookLeftImage = "pack://application:,,,/prolab_2;component/Images/soli.png";
+        private string lookRightImage = "pack://application:,,,/prolab_2;component/Images/sagi.png";
         public IceTower(string id, double x, double y)
             // Maliyet: 70, Menzil: 150, Hasar: 15, Hız: 2.0s
             : base(id, "BuzKulesi", x, y, 70, 150, 15, 2.0)
         {
-            Appearance = new System.Windows.Shapes.Ellipse
+            Grid container = new Grid
             {
-                Width = 40,
-                Height = 40,
-                Fill = System.Windows.Media.Brushes.Cyan,
-                Opacity = 0.4,
-                Stroke = System.Windows.Media.Brushes.Blue
+                Width = 120,
+                Height = 120
             };
+
+            towerImage = new Image
+            {
+                Width = 120,
+                Height = 120,
+                Source = new BitmapImage(new Uri(idleImage)),
+                Stretch = Stretch.Uniform
+            };
+
+            container.Children.Add(towerImage);
+            this.Appearance = container;
             UpdateVisual();
         }
 
@@ -31,6 +50,15 @@ namespace prolab_2
                 Logger.Log($"Kule '{this.ID}', '{target.ID}' 'ye slow attı.");
                 CurrentCooldown = FireRate;
             }
+        }
+        public override void UpdateTowerImage(bool enemyLeft, bool enemyRight)
+        {
+            if (enemyLeft)
+                towerImage.Source = new BitmapImage(new Uri(lookLeftImage));
+            else if (enemyRight)
+                towerImage.Source = new BitmapImage(new Uri(lookRightImage));
+            else
+                towerImage.Source = new BitmapImage(new Uri(idleImage));
         }
     }
 }

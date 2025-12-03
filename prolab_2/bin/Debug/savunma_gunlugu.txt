@@ -3255,3 +3255,428 @@ Kule 'T3', 'E5' hedefini yavaşlattı ve vurdu.
 [20:48:32] 4 Monster
 [20:48:32] 1. Dalga Başlatıldı
 [20:48:32] 5 Goblin
+[21:42:32] Oyun başlatıldı. Düşmanlar bekleniyor...
+[21:42:36] Kapılar açıldı, oyun sahnesi hazır.
+[21:42:36] Sorcerer Tower (575, 203) konumuna inşa edildi.
+[21:42:39] 1. Dalga Başlatıldı
+[21:42:39] 5 Goblin
+[21:42:39] 2. Dalga Başlatıldı
+[21:42:39] 5. Knight
+[21:42:39] 5 Goblin
+[21:42:39] 4 Monster
+[21:42:47] Dalga 1 gönderimi tamamlandı.
+[21:42:50] Goblin öldü. 10 Kemik kazandırdı.
+[21:42:55] Goblin öldü. 10 Kemik kazandırdı.
+[21:42:58] 2. Dalga Başlatıldı
+[21:42:58] 5. Knight
+[21:42:58] 5 Goblin
+[21:42:58] 4 Monster
+[21:42:58] 1. Dalga Başlatıldı
+[21:42:58] 5 Goblin
+[21:43:02] Goblin öldü. 10 Kemik kazandırdı.
+[22:16:20] Oyun başlatıldı. Düşmanlar bekleniyor...
+[22:16:25] Kapılar açıldı, oyun sahnesi hazır.
+[22:16:26] 1. Dalga Başlatıldı
+[22:16:26] 5 Goblin
+[22:16:26] 2. Dalga Başlatıldı
+[22:16:26] 5. Knight
+[22:16:26] 5 Goblin
+[22:16:26] 4 Monster
+[22:18:20] Oyun başlatıldı. Düşmanlar bekleniyor...
+[22:18:23] Kapılar açıldı, oyun sahnesi hazır.
+[22:18:23] TopcuKulesi (575, 203) konumuna inşa edildi.
+[22:18:24] 1. Dalga Başlatıldı
+[22:18:24] 5 Goblin
+[22:18:24] 2. Dalga Başlatıldı
+[22:18:24] 5. Knight
+[22:18:24] 5 Goblin
+[22:18:24] 4 Monster
+[22:18:32] Dalga 1 gönderimi tamamlandı.
+[22:18:32] 2. Dalga Başlatıldı
+[22:18:32] 5. Knight
+[22:18:32] 5 Goblin
+[22:18:32] 4 Monster
+[22:18:32] 1. Dalga Başlatıldı
+[22:18:32] 5 Goblin
+[22:18:33] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E1'
+[22:18:39] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E2'
+[22:18:44] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E7'
+[22:18:50] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E10'
+[22:18:51] Goblin hedefe ulaştı. 5 can azalttı
+[22:18:52] Goblin hedefe ulaştı. 5 can azalttı
+[22:18:53] Dalga 2 gönderimi tamamlandı.
+[22:18:53] Goblin hedefe ulaştı. 5 can azalttı
+[22:18:54] Goblin hedefe ulaştı. 5 can azalttı
+[22:18:56] Goblin hedefe ulaştı. 5 can azalttı
+[22:18:56] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E15'
+[22:19:02] OkcuKulesi (312, 502) konumuna inşa edildi.
+[22:19:02] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[22:19:02] Kule 'T1', 'E13' 'yi delip geçti. Hasar: 10
+[22:19:02] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[22:19:03] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[22:19:03] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[22:19:04] Kule 'T1', 'E14' 'yi delip geçti. Hasar: 10
+[22:19:04] Kule 'T1', 'E9' 'yi delip geçti. Hasar: 5
+[22:19:04] Goblin hedefe ulaştı. 5 can azalttı
+[22:19:04] Kule 'T1', 'E9' 'yi delip geçti. Hasar: 5
+[22:19:05] Kule 'T1', 'E9' 'yi delip geçti. Hasar: 5
+[22:19:05] Kule 'T1', 'E15' 'yi delip geçti. Hasar: 10
+[22:19:05] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:06] Goblin hedefe ulaştı. 5 can azalttı
+[22:19:06] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:06] OkcuKulesi (345, 282) konumuna inşa edildi.
+[22:19:06] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:06] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:06] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:07] Kule 'T1', 'E16' 'yi delip geçti. Hasar: 10
+[22:19:07] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:07] Kule 'T1', 'E16' 'yi delip geçti. Hasar: 10
+[22:19:07] Goblin hedefe ulaştı. 5 can azalttı
+[22:19:07] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:07] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:07] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:08] Kule 'T1', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:08] Flying Monster öldü. 15 Kemik kazandırdı.
+[22:19:08] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:08] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:08] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:08] Goblin hedefe ulaştı. 5 can azalttı
+[22:19:08] Kule 'T1', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:08] Kule 'T2', 'E17' 'yi delip geçti. Hasar: 10
+[22:19:08] Flying Monster öldü. 15 Kemik kazandırdı.
+[22:19:09] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:09] Kule 'T2', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:09] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:09] Kule 'T2', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:10] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:10] Kule 'T2', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:10] Goblin hedefe ulaştı. 5 can azalttı
+[22:19:10] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:10] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:11] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:19:11] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:11] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:12] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:12] Flying Monster hedefe ulaştı. 5 can azalttı
+[22:19:12] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:19:12] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:13] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:14] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:19:14] Armored Knight öldü. 20 Kemik kazandırdı.
+[22:19:15] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:19:17] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:19:21] Yeni oyun başlatıldı
+[22:19:23] Oyun bitirildi, ana menüye dönüldü.
+[22:19:26] Kapılar açıldı, oyun sahnesi hazır.
+[22:19:27] 1. Dalga Başlatıldı
+[22:19:27] 5 Goblin
+[22:19:27] 2. Dalga Başlatıldı
+[22:19:27] 5. Knight
+[22:19:27] 5 Goblin
+[22:19:27] 4 Monster
+[22:19:29] OkcuKulesi (835, 239) konumuna inşa edildi.
+[22:19:29] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[22:19:30] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[22:19:31] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[22:19:31] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[22:19:32] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[22:19:32] Goblin öldü. 10 Kemik kazandırdı.
+[22:19:32] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[22:19:33] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[22:19:33] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[22:19:34] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[22:19:35] Dalga 1 gönderimi tamamlandı.
+[22:19:35] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[22:19:35] Goblin öldü. 10 Kemik kazandırdı.
+[22:19:35] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[22:42:18] Oyun başlatıldı. Düşmanlar bekleniyor...
+[22:42:21] Kapılar açıldı, oyun sahnesi hazır.
+[22:42:23] 1. Dalga Başlatıldı
+[22:42:23] 5 Goblin
+[22:42:23] 2. Dalga Başlatıldı
+[22:42:23] 5. Knight
+[22:42:23] 5 Goblin
+[22:42:23] 4 Monster
+[22:42:27] BuzKulesi (835, 239) konumuna inşa edildi.
+[22:42:27] Kule 'T0', 'E1' 'ye slow attı.
+[22:42:31] Dalga 1 gönderimi tamamlandı.
+[22:42:31] Kule 'T0', 'E2' 'ye slow attı.
+[22:42:33] BuzKulesi (345, 282) konumuna inşa edildi.
+[22:42:36] Kule 'T0', 'E4' 'ye slow attı.
+[22:42:39] 1. Dalga Başlatıldı
+[22:42:39] 5 Goblin
+[22:42:40] Kule 'T0', 'E4' 'ye slow attı.
+[22:42:43] Kule 'T1', 'E3' 'ye slow attı.
+[22:42:48] Kule 'T1', 'E1' 'ye slow attı.
+[22:42:49] Kule 'T0', 'E11' 'ye slow attı.
+[22:42:51] BuzKulesi (312, 502) konumuna inşa edildi.
+[22:42:51] Kule 'T2', 'E2' 'ye slow attı.
+[22:42:52] Kule 'T1', 'E4' 'ye slow attı.
+[22:42:53] Kule 'T0', 'E12' 'ye slow attı.
+[22:42:55] Kule 'T2', 'E4' 'ye slow attı.
+[22:42:55] Goblin öldü. 10 Kemik kazandırdı.
+[22:43:07] Oyun başlatıldı. Düşmanlar bekleniyor...
+[22:43:40] Kapılar açıldı, oyun sahnesi hazır.
+[22:44:19] 1. Dalga Başlatıldı
+[22:44:19] 5 Goblin
+[22:44:19] 2. Dalga Başlatıldı
+[22:44:19] 5. Knight
+[22:44:19] 5 Goblin
+[22:44:19] 4 Monster
+[22:44:27] Dalga 1 gönderimi tamamlandı.
+[22:44:31] Sorcerer Tower (835, 239) konumuna inşa edildi.
+[22:44:32] TopcuKulesi (575, 203) konumuna inşa edildi.
+[22:44:32] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E1'
+[22:44:34] OkcuKulesi (345, 282) konumuna inşa edildi.
+[22:44:35] Goblin öldü. 10 Kemik kazandırdı.
+[22:44:37] BuzKulesi (312, 502) konumuna inşa edildi.
+[22:44:37] Kule 'T2', 'E1' 'yi delip geçti. Hasar: 10
+[22:44:38] 2. Dalga Başlatıldı
+[22:44:38] 5. Knight
+[22:44:38] 5 Goblin
+[22:44:38] 4 Monster
+[22:44:38] 1. Dalga Başlatıldı
+[22:44:38] 5 Goblin
+[22:44:38] Kule 'T2', 'E1' 'yi delip geçti. Hasar: 10
+[22:44:38] Kule 'T2', 'E1' 'yi delip geçti. Hasar: 10
+[22:44:38] Goblin öldü. 10 Kemik kazandırdı.
+[22:44:39] Kule 'T2', 'E2' 'yi delip geçti. Hasar: 10
+[22:44:39] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E4'
+[22:44:39] Goblin öldü. 10 Kemik kazandırdı.
+[22:44:40] Kule 'T2', 'E2' 'yi delip geçti. Hasar: 10
+[22:44:40] Kule 'T2', 'E2' 'yi delip geçti. Hasar: 10
+[22:44:40] Goblin öldü. 10 Kemik kazandırdı.
+[22:44:42] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 10
+[22:44:42] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 10
+[22:44:43] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 10
+[22:44:43] Goblin öldü. 10 Kemik kazandırdı.
+[22:44:48] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E3'
+[22:44:49] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:49] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:50] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:50] Goblin öldü. 10 Kemik kazandırdı.
+[22:44:50] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:51] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:51] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:52] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:52] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:53] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:53] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:54] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:54] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:54] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:54] Goblin öldü. 10 Kemik kazandırdı.
+[22:44:55] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E4'
+[22:44:55] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:55] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:44:56] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:44:56] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:44:56] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:44:57] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:44:57] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:44:58] Kule 'T2', 'E5' 'yi delip geçti. Hasar: 5
+[22:44:58] Kule 'T2', 'E5' 'yi delip geçti. Hasar: 5
+[22:44:59] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:59] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:59] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:44:59] Armored Knight öldü. 20 Kemik kazandırdı.
+[22:44:59] Dalga 2 gönderimi tamamlandı.
+[22:45:00] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:00] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:01] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:01] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E5'
+[22:45:01] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:01] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:02] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:02] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:02] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:03] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:03] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:04] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:04] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:04] Kule 'T2', 'E3' 'yi delip geçti. Hasar: 5
+[22:45:04] Armored Knight öldü. 20 Kemik kazandırdı.
+[22:45:05] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:45:05] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:45:06] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:45:06] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:45:07] Flying Monster öldü. 15 Kemik kazandırdı.
+[22:45:07] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E9'
+[22:45:07] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:07] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:45:07] Kule 'T3', 'E7' 'ye slow attı.
+[22:45:07] Kule 'T2', 'E7' 'yi delip geçti. Hasar: 10
+[22:45:07] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:08] Kule 'T2', 'E4' 'yi delip geçti. Hasar: 5
+[22:45:10] Oyun başlatıldı. Düşmanlar bekleniyor...
+[22:45:13] Kapılar açıldı, oyun sahnesi hazır.
+[22:45:14] 1. Dalga Başlatıldı
+[22:45:14] 5 Goblin
+[22:45:14] 2. Dalga Başlatıldı
+[22:45:14] 5. Knight
+[22:45:14] 5 Goblin
+[22:45:14] 4 Monster
+[22:45:20] BuzKulesi (345, 282) konumuna inşa edildi.
+[22:45:21] TopcuKulesi (575, 203) konumuna inşa edildi.
+[22:45:22] Dalga 1 gönderimi tamamlandı.
+[22:45:23] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E1'
+[22:45:27] 1. Dalga Başlatıldı
+[22:45:27] 5 Goblin
+[22:45:28] Sorcerer Tower (835, 239) konumuna inşa edildi.
+[22:45:30] OkcuKulesi (312, 502) konumuna inşa edildi.
+[22:45:31] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E3'
+[22:45:31] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:33] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:35] Kule 'T0', 'E1' 'ye slow attı.
+[22:45:36] Kule 'T3', 'E1' 'yi delip geçti. Hasar: 10
+[22:45:37] Kule 'T3', 'E1' 'yi delip geçti. Hasar: 10
+[22:45:37] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:37] Kule 'T3', 'E2' 'yi delip geçti. Hasar: 10
+[22:45:37] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:38] Kule 'T3', 'E3' 'yi delip geçti. Hasar: 10
+[22:45:38] Kule 'T3', 'E3' 'yi delip geçti. Hasar: 10
+[22:45:38] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E6'
+[22:45:38] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:39] Kule 'T3', 'E3' 'yi delip geçti. Hasar: 10
+[22:45:39] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:43] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:45] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E8'
+[22:45:48] Dalga 2 gönderimi tamamlandı.
+[22:45:49] Kule 'T0', 'E6' 'ye slow attı.
+[22:45:51] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E8'
+[22:45:51] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:51] Goblin öldü. 10 Kemik kazandırdı.
+[22:45:51] Kule 'T3', 'E6' 'yi delip geçti. Hasar: 5
+[22:45:52] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:52] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:53] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:53] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:53] Kule 'T0', 'E7' 'ye slow attı.
+[22:45:54] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:54] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:54] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:55] Flying Monster öldü. 15 Kemik kazandırdı.
+[22:45:55] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:55] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:56] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:56] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:57] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:57] Kule 'T1' odaklı alan hasarı vurdu. Merkez: 'E9'
+[22:45:57] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:57] Kule 'T0', 'E7' 'ye slow attı.
+[22:45:58] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:58] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:58] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:59] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:45:59] Kule 'T3', 'E6' 'yi delip geçti. Hasar: 5
+[22:46:00] Kule 'T3', 'E6' 'yi delip geçti. Hasar: 5
+[22:46:00] Kule 'T3', 'E6' 'yi delip geçti. Hasar: 5
+[22:46:00] Kule 'T3', 'E6' 'yi delip geçti. Hasar: 5
+[22:46:01] Kule 'T3', 'E9' 'yi delip geçti. Hasar: 10
+[22:46:02] Kule 'T3', 'E9' 'yi delip geçti. Hasar: 10
+[22:46:02] Kule 'T0', 'E9' 'ye slow attı.
+[22:46:02] Kule 'T3', 'E9' 'yi delip geçti. Hasar: 10
+[22:46:02] Goblin öldü. 10 Kemik kazandırdı.
+[22:46:02] Kule 'T3', 'E6' 'yi delip geçti. Hasar: 5
+[22:46:03] Kule 'T3', 'E6' 'yi delip geçti. Hasar: 5
+[22:46:04] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:04] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:46:05] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:46:05] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:06] Kule 'T3', 'E9' 'yi delip geçti. Hasar: 10
+[22:46:06] Flying Monster öldü. 15 Kemik kazandırdı.
+[22:46:06] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:46:07] Kule 'T0', 'E7' 'ye slow attı.
+[22:46:07] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:07] Armored Knight öldü. 20 Kemik kazandırdı.
+[22:46:08] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:08] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:09] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:09] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:10] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:11] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:11] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:11] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:12] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:12] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:13] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:13] Flying Monster hedefe ulaştı. 5 can azalttı
+[22:46:13] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:14] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:14] Armored Knight öldü. 20 Kemik kazandırdı.
+[22:46:14] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[22:46:14] Armored Knight öldü. 20 Kemik kazandırdı.
+[22:46:15] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[22:46:17] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:46:18] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:47:26] Oyun başlatıldı. Düşmanlar bekleniyor...
+[22:47:29] Kapılar açıldı, oyun sahnesi hazır.
+[22:47:31] 1. Dalga Başlatıldı
+[22:47:31] 5 Goblin
+[22:47:31] 2. Dalga Başlatıldı
+[22:47:31] 5. Knight
+[22:47:31] 5 Goblin
+[22:47:31] 4 Monster
+[22:47:38] Dalga 1 gönderimi tamamlandı.
+[22:47:39] 2. Dalga Başlatıldı
+[22:47:39] 5. Knight
+[22:47:39] 5 Goblin
+[22:47:39] 4 Monster
+[22:47:39] 1. Dalga Başlatıldı
+[22:47:39] 5 Goblin
+[22:47:44] TopcuKulesi (575, 203) konumuna inşa edildi.
+[22:47:45] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E2'
+[22:47:48] OkcuKulesi (345, 282) konumuna inşa edildi.
+[22:47:49] Kule 'T1', 'E1' 'yi delip geçti. Hasar: 10
+[22:47:50] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E6'
+[22:47:50] BuzKulesi (312, 502) konumuna inşa edildi.
+[22:47:50] Kule 'T2', 'E1' 'ye slow attı.
+[22:47:51] Kule 'T1', 'E1' 'yi delip geçti. Hasar: 10
+[22:47:51] Goblin öldü. 10 Kemik kazandırdı.
+[22:47:52] Sorcerer Tower (835, 239) konumuna inşa edildi.
+[22:47:53] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[22:47:55] Kule 'T2', 'E3' 'ye slow attı.
+[22:47:55] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[22:47:56] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E10'
+[22:47:57] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 10
+[22:47:58] Kule 'T2', 'E5' 'ye slow attı.
+[22:47:58] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 10
+[22:47:59] Goblin hedefe ulaştı. 5 can azalttı
+[22:48:00] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[22:48:00] Dalga 2 gönderimi tamamlandı.
+[22:48:01] Goblin hedefe ulaştı. 5 can azalttı
+[22:48:02] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E13'
+[22:48:02] Kule 'T2', 'E5' 'ye slow attı.
+[22:48:02] Goblin öldü. 10 Kemik kazandırdı.
+[22:48:02] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[22:48:03] Goblin hedefe ulaştı. 5 can azalttı
+[22:48:04] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[22:48:05] Kule 'T2', 'E11' 'ye slow attı.
+[22:48:05] Goblin öldü. 10 Kemik kazandırdı.
+[22:48:05] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[22:48:07] Kule 'T0' odaklı alan hasarı vurdu. Merkez: 'E14'
+[22:48:07] Kule 'T1', 'E12' 'yi delip geçti. Hasar: 10
+[22:48:09] Kule 'T2', 'E12' 'ye slow attı.
+[22:48:09] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:48:11] Kule 'T1', 'E15' 'yi delip geçti. Hasar: 10
+[22:48:13] Kule 'T2', 'E10' 'ye slow attı.
+[22:48:13] Kule 'T1', 'E16' 'yi delip geçti. Hasar: 10
+[22:48:13] Goblin hedefe ulaştı. 5 can azalttı
+[22:48:15] Kule 'T1', 'E17' 'yi delip geçti. Hasar: 10
+[22:48:15] Flying Monster öldü. 15 Kemik kazandırdı.
+[22:48:16] Goblin hedefe ulaştı. 5 can azalttı
+[22:48:17] Kule 'T2', 'E10' 'ye slow attı.
+[22:48:17] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:48:17] Goblin hedefe ulaştı. 5 can azalttı
+[22:48:17] Goblin hedefe ulaştı. 5 can azalttı
+[22:48:19] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:48:19] Flying Monster hedefe ulaştı. 5 can azalttı
+[22:48:19] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:48:21] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:48:21] Flying Monster hedefe ulaştı. 5 can azalttı
+[22:48:21] Kule 'T2', 'E10' 'ye slow attı.
+[22:48:22] Kule 'T1', 'E10' 'yi delip geçti. Hasar: 5
+[22:48:23] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:48:24] Armored Knight hedefe ulaştı. 5 can azalttı
+[22:48:27] Kule 'T2', 'E10' 'ye slow attı.
+[22:48:42] Armored Knight hedefe ulaştı. 5 can azalttı

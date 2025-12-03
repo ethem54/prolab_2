@@ -1,24 +1,39 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq; // Where için
+using System.Windows.Controls;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 namespace prolab_2
 {
     public class CannonTower : Tower
     {
+        private Image towerImage;
+
+        // Durum resimleri
+        private string lookLeftImage = "pack://application:,,,/prolab_2;component/Images/solc.png";
+        private string lookRightImage = "pack://application:,,,/prolab_2;component/Images/sagc.png";
         public CannonTower(string id, double x, double y)
             // Maliyet: 75, Menzil: 200, Hasar: 20, Hız: 3.0s
             : base(id, "TopcuKulesi", x, y, 75, 200, 20, 3.0)
         {
-            Appearance = new System.Windows.Shapes.Ellipse
+            Grid container = new Grid
             {
-                Width = 60,
-                Height = 60,
-                Fill = System.Windows.Media.Brushes.Black,
-                Stroke = System.Windows.Media.Brushes.DarkGray,
-                StrokeThickness = 3
+                Width = 120,
+                Height = 120
             };
+            towerImage = new Image
+            {
+                Width = 120,
+                Height = 120,
+                Source = new BitmapImage(new Uri(lookRightImage)),
+                Stretch = Stretch.Uniform
+            };
+            container.Children.Add(towerImage);
+            this.Appearance = container;
+
             UpdateVisual();
         }
         public override Enemy GetTarget(System.Collections.Generic.List<Enemy> enemies)
@@ -50,6 +65,13 @@ namespace prolab_2
                 Logger.Log($"Kule '{this.ID}' odaklı alan hasarı vurdu. Merkez: '{target.ID}'");
                 CurrentCooldown = FireRate;
             }
+        }
+        public override void UpdateTowerImage(bool enemyLeft, bool enemyRight)
+        {
+            if (enemyLeft)
+                towerImage.Source = new BitmapImage(new Uri(lookLeftImage));
+            else
+                towerImage.Source = new BitmapImage(new Uri(lookRightImage));
         }
     }
 }

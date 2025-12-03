@@ -145,6 +145,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\goblinnn.gif" />
+    <Resource Include="Images\sagi.png" />
+    <Resource Include="Images\ortai.png" />
+    <Resource Include="Images\soli.png" />
+    <Resource Include="Images\sagc.png" />
+    <Resource Include="Images\solc.png" />
+    <Resource Include="Images\sagb.png" />
+    <Resource Include="Images\solb.png" />
+    <Resource Include="Images\ortab.png" />
     <Resource Include="Images\sag.png" />
     <Resource Include="Images\sol.png" />
     <Resource Include="Images\orta.png" />
