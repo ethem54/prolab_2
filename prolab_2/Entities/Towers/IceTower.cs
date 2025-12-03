@@ -7,15 +7,15 @@ namespace prolab_2
     public class IceTower : Tower
     {
         public IceTower(string id, double x, double y)
-            // Maliyet: 70, Menzil: 120, Hasar: 15, Hız: 2.0s
-            : base(id, "BuzKulesi", x, y, 70, 120, 15, 2.0)
+            // Maliyet: 70, Menzil: 150, Hasar: 15, Hız: 2.0s
+            : base(id, "BuzKulesi", x, y, 70, 150, 15, 2.0)
         {
             Appearance = new System.Windows.Shapes.Ellipse
             {
-                Width = 50,
-                Height = 50,
+                Width = 40,
+                Height = 40,
                 Fill = System.Windows.Media.Brushes.Cyan,
-                Opacity = 0.8,
+                Opacity = 0.4,
                 Stroke = System.Windows.Media.Brushes.Blue
             };
             UpdateVisual();
@@ -26,9 +26,9 @@ namespace prolab_2
             if (CurrentCooldown <= 0 && target != null)
             {
                 target.TakeDamage(Damage);
-                target.ApplySlow(3.0, 0.50); // 3 saniye %50 yavaşlat [cite: 97]
+                target.ApplySlow(3.0, 0.50); // 3 saniye %50 yavaşlatma
 
-                Logger.Log($"Kule '{this.ID}', '{target.ID}' hedefini yavaşlattı ve vurdu.");
+                Logger.Log($"Kule '{this.ID}', '{target.ID}' 'ye slow attı.");
                 CurrentCooldown = FireRate;
             }
         }

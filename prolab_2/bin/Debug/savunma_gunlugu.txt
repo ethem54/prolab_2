@@ -2079,3 +2079,1179 @@ Kule 'T3', 'E5' hedefini yavaşlattı ve vurdu.
 [16:44:35] Oyun başlatıldı. Düşmanlar bekleniyor...
 [16:44:38] Kapılar açıldı, oyun sahnesi hazır.
 [16:44:52] Kule 'T1' alan atışı yaptı. Merkez: 'E1'
+[18:14:04] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:14:08] Kapılar açıldı, oyun sahnesi hazır.
+[18:14:25] Dalga 1 gönderimi tamamlandı.
+[18:14:33] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:33] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:33] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:34] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:34] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:35] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:35] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:36] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:36] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:37] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:37] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:38] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:38] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:39] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:39] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:40] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:40] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:40] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:41] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:14:41] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 5
+[18:16:33] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:16:37] Kapılar açıldı, oyun sahnesi hazır.
+[18:17:06] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:17:09] Kapılar açıldı, oyun sahnesi hazır.
+[18:17:26] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:17:29] Kapılar açıldı, oyun sahnesi hazır.
+[18:17:50] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:17:53] Kapılar açıldı, oyun sahnesi hazır.
+[18:18:08] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:18:11] Kapılar açıldı, oyun sahnesi hazır.
+[18:18:25] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:18:28] Kapılar açıldı, oyun sahnesi hazır.
+[18:18:39] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:18:42] Kapılar açıldı, oyun sahnesi hazır.
+[18:57:35] Oyun başlatıldı. Düşmanlar bekleniyor...
+[18:57:39] Kapılar açıldı, oyun sahnesi hazır.
+[18:57:40] OkcuKulesi (580, 198) konumuna inşa edildi.
+[18:57:42] OkcuKulesi (835, 230) konumuna inşa edildi.
+[18:57:46] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+[18:57:46] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+[18:57:47] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+[18:57:47] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+[18:57:48] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 10
+[18:57:49] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:49] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:50] OkcuKulesi (345, 282) konumuna inşa edildi.
+[18:57:50] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:50] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:51] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:51] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:51] Dalga 1 gönderimi tamamlandı.
+[18:57:51] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:52] TopcuKulesi (312, 502) konumuna inşa edildi.
+[18:57:52] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:52] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:53] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 10
+[18:57:53] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+[18:57:54] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+[18:57:54] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+[18:57:55] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+[18:57:56] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+[18:57:56] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+[18:57:57] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:34] Oyun başlatıldı. Düşmanlar bekleniyor...
+[19:05:38] Kapılar açıldı, oyun sahnesi hazır.
+[19:05:38] 1. Dalga Başlatıldı
+[19:05:38] 5 Goblin
+[19:05:38] 2. Dalga Başlatıldı
+[19:05:38] 5. Knight
+[19:05:38] 5 Goblin
+[19:05:38] 4 Monster
+[19:05:41] OkcuKulesi (835, 239) konumuna inşa edildi.
+[19:05:41] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:05:42] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:05:43] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:05:43] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:05:44] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:05:44] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:05:45] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:05:45] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:05:46] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:05:46] Dalga 1 gönderimi tamamlandı.
+[19:05:46] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:05:47] 2. Dalga Başlatıldı
+[19:05:47] 5. Knight
+[19:05:47] 5 Goblin
+[19:05:47] 4 Monster
+[19:05:47] 1. Dalga Başlatıldı
+[19:05:47] 5 Goblin
+[19:05:47] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:47] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:48] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:48] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:48] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:49] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:05:49] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:50] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:51] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:51] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:51] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:05:52] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:05:52] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:05:53] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:05:53] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:05:56] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:05:57] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:05:57] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:05:58] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:05:58] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:05:59] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:05:59] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:05:59] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:00] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:00] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:01] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:01] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:02] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:02] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:03] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:06:03] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:04] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:04] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:05] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:05] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:05] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:06] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:06] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:06] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:07] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:07] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:08] Dalga 2 gönderimi tamamlandı.
+[19:06:08] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:08] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:09] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:09] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:06:09] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:10] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:10] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:11] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:11] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:11] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:12] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:12] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:13] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:24] OkcuKulesi (312, 502) konumuna inşa edildi.
+[19:06:24] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:24] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:25] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:25] Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+[19:06:26] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:26] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:27] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:27] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:28] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:28] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:28] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:29] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:29] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:30] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:30] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:30] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:06:44] OkcuKulesi (575, 203) konumuna inşa edildi.
+[19:07:37] Oyun başlatıldı. Düşmanlar bekleniyor...
+[19:07:40] BuzKulesi (575, 203) konumuna inşa edildi.
+[19:07:40] Kapılar açıldı, oyun sahnesi hazır.
+[19:07:41] 1. Dalga Başlatıldı
+[19:07:41] 5 Goblin
+[19:07:41] 2. Dalga Başlatıldı
+[19:07:41] 5. Knight
+[19:07:41] 5 Goblin
+[19:07:41] 4 Monster
+[19:07:42] BuzKulesi (835, 239) konumuna inşa edildi.
+[19:07:46] Kule 'T1', 'E1' hedefini yavaşlattı ve vurdu.
+[19:07:48] Dalga 1 gönderimi tamamlandı.
+[19:07:51] Kule 'T1', 'E2' hedefini yavaşlattı ve vurdu.
+[19:08:08] Oyun başlatıldı. Düşmanlar bekleniyor...
+[19:08:11] Kapılar açıldı, oyun sahnesi hazır.
+[19:08:12] 1. Dalga Başlatıldı
+[19:08:12] 5 Goblin
+[19:08:12] 2. Dalga Başlatıldı
+[19:08:12] 5. Knight
+[19:08:12] 5 Goblin
+[19:08:12] 4 Monster
+[19:08:15] BuzKulesi (835, 239) konumuna inşa edildi.
+[19:08:17] Kule 'T0', 'E1' hedefini yavaşlattı ve vurdu.
+[19:08:19] Dalga 1 gönderimi tamamlandı.
+[19:09:54] Oyun başlatıldı. Düşmanlar bekleniyor...
+[19:09:57] 1. Dalga Başlatıldı
+[19:09:57] 5 Goblin
+[19:09:57] 2. Dalga Başlatıldı
+[19:09:57] 5. Knight
+[19:09:57] 5 Goblin
+[19:09:57] 4 Monster
+[19:09:57] Kapılar açıldı, oyun sahnesi hazır.
+[19:09:59] OkcuKulesi (835, 239) konumuna inşa edildi.
+[19:10:00] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:10:01] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:10:02] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:10:02] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:10:03] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:10:04] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:10:05] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:10:05] Dalga 1 gönderimi tamamlandı.
+[19:10:05] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:10:06] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:10:07] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:10:07] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:08] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:09] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:10] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:10] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:11] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:11] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:12] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:13] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:14] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:10:15] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:10:16] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:10:16] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:10:17] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:10:18] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:10:29] 2. Dalga Başlatıldı
+[19:10:29] 5. Knight
+[19:10:29] 5 Goblin
+[19:10:29] 4 Monster
+[19:10:29] 1. Dalga Başlatıldı
+[19:10:29] 5 Goblin
+[19:10:31] OkcuKulesi (575, 203) konumuna inşa edildi.
+[19:10:34] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:35] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:35] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:36] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:36] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:36] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:37] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:37] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:38] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:38] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:38] OkcuKulesi (345, 282) konumuna inşa edildi.
+[19:10:38] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:10:39] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:39] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:10:39] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:40] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:10:40] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:40] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:10:40] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:40] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:10:40] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:41] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:41] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:41] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:41] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:42] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:42] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:42] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:42] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:43] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:43] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:43] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:43] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:43] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:44] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 5
+[19:10:44] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:44] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 5
+[19:10:44] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:44] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 5
+[19:10:45] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:10:45] Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 5
+[19:10:45] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:45] Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 5
+[19:10:45] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:46] Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 5
+[19:10:46] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:46] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:46] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:46] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:47] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:47] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:47] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:47] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:48] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:48] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:48] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:48] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:48] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:48] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:49] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:49] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:49] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:49] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:49] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:49] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:50] Dalga 2 gönderimi tamamlandı.
+[19:10:50] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:50] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:50] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:50] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:50] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:50] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:51] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:10:51] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:51] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:51] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:51] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:51] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:51] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:52] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:10:52] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:52] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:52] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:52] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:52] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:52] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:52] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:53] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:53] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:53] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:10:53] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:53] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:54] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:54] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:54] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:54] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:55] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:55] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:55] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:10:55] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:56] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:56] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:56] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:57] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:57] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:10:58] Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+[19:10:58] Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+[19:10:59] Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+[19:10:59] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:10:59] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:11:00] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:11:00] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:11:01] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:11:01] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:11:02] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:11:02] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:11:03] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:11:03] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:11:04] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:11:04] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:11:04] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:11:05] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:17:43] Oyun başlatıldı. Düşmanlar bekleniyor...
+[19:17:46] Kapılar açıldı, oyun sahnesi hazır.
+[19:17:47] OkcuKulesi (835, 239) konumuna inşa edildi.
+[19:17:48] 1. Dalga Başlatıldı
+[19:17:48] 5 Goblin
+[19:17:48] 2. Dalga Başlatıldı
+[19:17:48] 5. Knight
+[19:17:48] 5 Goblin
+[19:17:48] 4 Monster
+[19:17:52] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:17:52] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:17:53] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:17:53] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:17:54] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:17:54] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:17:54] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:17:55] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:17:55] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:17:56] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:17:56] Dalga 1 gönderimi tamamlandı.
+[19:17:56] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:17:56] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:17:57] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:17:57] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:17:58] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:17:58] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:17:59] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:17:59] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:17:59] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:18:00] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:18:01] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:18:01] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:18:01] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:18:01] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:02] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:18:02] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:18:03] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:18:03] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:18:03] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:18:03] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:10] OkcuKulesi (575, 203) konumuna inşa edildi.
+[19:18:10] 2. Dalga Başlatıldı
+[19:18:10] 5. Knight
+[19:18:10] 5 Goblin
+[19:18:10] 4 Monster
+[19:18:10] 1. Dalga Başlatıldı
+[19:18:10] 5 Goblin
+[19:18:17] OkcuKulesi (345, 282) konumuna inşa edildi.
+[19:18:17] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:18] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:18] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:19] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:19] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:20] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:20] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:20] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:18:21] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:21] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:18:21] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:21] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:18:21] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:21] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:18:22] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:22] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:18:22] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:22] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:22] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:23] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:23] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:23] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:23] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:24] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:24] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:24] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:24] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:24] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:24] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:24] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:25] Kule 'T1', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:25] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:25] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:25] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:26] Kule 'T1', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:26] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:26] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:26] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:18:26] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:26] Kule 'T1', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:26] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:27] Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:27] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:27] Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:27] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:28] Kule 'T1', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:28] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:28] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:28] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:28] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:29] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:29] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:29] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:29] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:30] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:30] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:30] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:30] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:31] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:31] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:31] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:31] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:31] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:31] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:31] Dalga 2 gönderimi tamamlandı.
+[19:18:31] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:32] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:32] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:32] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:32] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:33] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:33] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:18:33] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:33] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:33] OkcuKulesi (312, 502) konumuna inşa edildi.
+[19:18:33] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:34] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:34] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:34] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:34] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:34] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:34] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:35] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:35] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:35] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:35] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:35] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:35] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:36] Kule 'T2', 'E1' hedefine atış yaptı. Hasar: 5
+[19:18:36] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:36] Kule 'T1', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:36] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:36] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:36] Kule 'T1', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:36] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:36] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:37] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:37] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:37] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:37] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:18:37] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:38] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:38] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:39] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:39] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:40] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:40] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:40] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:40] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:41] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:41] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:41] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:41] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:41] Kule 'T2', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:41] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:42] Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:42] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:43] Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:43] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:43] Kule 'T2', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:43] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:44] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:44] Kule 'T3', 'E2' hedefine atış yaptı. Hasar: 5
+[19:18:44] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:44] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:44] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:44] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:44] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:45] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:45] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:45] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:45] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:46] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:46] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:46] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:46] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:47] Kule 'T2', 'E5' hedefine atış yaptı. Hasar: 5
+[19:18:47] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:47] System.Windows.Controls.StackPanel Öldü 5 Kemik Kazandırdı
+[19:18:47] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:47] Kule 'T3', 'E3' hedefine atış yaptı. Hasar: 5
+[19:18:48] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:48] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:48] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:48] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:49] Kule 'T2', 'E4' hedefine atış yaptı. Hasar: 5
+[19:18:49] Kule 'T3', 'E4' hedefine atış yaptı. Hasar: 5
+[19:32:28] Oyun başlatıldı. Düşmanlar bekleniyor...
+[19:32:31] Kapılar açıldı, oyun sahnesi hazır.
+[19:32:32] OkcuKulesi (835, 239) konumuna inşa edildi.
+[19:32:32] 1. Dalga Başlatıldı
+[19:32:32] 5 Goblin
+[19:32:32] 2. Dalga Başlatıldı
+[19:32:32] 5. Knight
+[19:32:32] 5 Goblin
+[19:32:32] 4 Monster
+[19:32:36] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:32:36] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:32:37] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:32:37] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:32:38] Kule 'T0', 'E1' hedefine atış yaptı. Hasar: 10
+[19:32:38] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:38] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:32:39] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:32:40] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:32:40] Dalga 1 gönderimi tamamlandı.
+[19:32:40] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:32:41] Kule 'T0', 'E2' hedefine atış yaptı. Hasar: 10
+[19:32:41] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:41] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:42] 1. Dalga Başlatıldı
+[19:32:42] 5 Goblin
+[19:32:42] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:42] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:43] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:43] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:43] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:44] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:44] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:45] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:45] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:46] Kule 'T0', 'E3' hedefine atış yaptı. Hasar: 10
+[19:32:46] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:46] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:32:47] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:32:47] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:32:48] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:32:48] Kule 'T0', 'E4' hedefine atış yaptı. Hasar: 10
+[19:32:48] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:52] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:32:52] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:32:53] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:32:53] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:32:54] Kule 'T0', 'E6' hedefine atış yaptı. Hasar: 10
+[19:32:54] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:54] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:55] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:55] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:55] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:56] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:56] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:56] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:57] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:57] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:57] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:58] Kule 'T0', 'E7' hedefine atış yaptı. Hasar: 10
+[19:32:58] Goblin öldü. 10 Kemik kazandırdı.
+[19:32:58] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:32:59] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:32:59] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:32:59] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:00] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:00] Goblin öldü. 10 Kemik kazandırdı.
+[19:33:00] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:01] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:01] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:02] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:02] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:02] Goblin öldü. 10 Kemik kazandırdı.
+[19:33:02] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:03] Dalga 2 gönderimi tamamlandı.
+[19:33:03] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:03] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:04] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:04] Kule 'T0', 'E8' hedefine atış yaptı. Hasar: 10
+[19:33:04] Flying Monster öldü. 15 Kemik kazandırdı.
+[19:33:05] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:05] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:05] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:06] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:06] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:06] Flying Monster öldü. 15 Kemik kazandırdı.
+[19:33:07] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:07] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:08] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:08] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:08] Kule 'T0', 'E9' hedefine atış yaptı. Hasar: 10
+[19:33:08] Flying Monster öldü. 15 Kemik kazandırdı.
+[19:44:09] Oyun başlatıldı. Düşmanlar bekleniyor...
+[19:44:12] 1. Dalga Başlatıldı
+[19:44:12] 5 Goblin
+[19:44:12] 2. Dalga Başlatıldı
+[19:44:12] 5. Knight
+[19:44:12] 5 Goblin
+[19:44:12] 4 Monster
+[19:44:12] Kapılar açıldı, oyun sahnesi hazır.
+[19:44:20] Dalga 1 gönderimi tamamlandı.
+[19:44:21] 1. Dalga Başlatıldı
+[19:44:21] 5 Goblin
+[19:44:39] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:40] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:41] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:41] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:42] Dalga 2 gönderimi tamamlandı.
+[19:44:42] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:52] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:53] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:55] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:57] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:59] Goblin hedefe ulaştı. 5 can azalttı
+[19:44:59] Armored Knight hedefe ulaştı. 5 can azalttı
+[19:45:00] Armored Knight hedefe ulaştı. 5 can azalttı
+[19:45:01] Flying Monster hedefe ulaştı. 5 can azalttı
+[19:45:02] Armored Knight hedefe ulaştı. 5 can azalttı
+[19:45:03] Flying Monster hedefe ulaştı. 5 can azalttı
+[19:45:04] Armored Knight hedefe ulaştı. 5 can azalttı
+[20:07:05] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:07:57] Kapılar açıldı, oyun sahnesi hazır.
+[20:08:23] OkcuKulesi (835, 239) konumuna inşa edildi.
+[20:08:27] 1. Dalga Başlatıldı
+[20:08:27] 5 Goblin
+[20:08:27] 2. Dalga Başlatıldı
+[20:08:27] 5. Knight
+[20:08:27] 5 Goblin
+[20:08:27] 4 Monster
+[20:08:30] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:08:31] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:08:31] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:08:32] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:08:33] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:08:33] Goblin öldü. 10 Kemik kazandırdı.
+[20:08:35] Dalga 1 gönderimi tamamlandı.
+[20:08:35] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:08:35] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:08:36] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:08:37] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:08:37] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:08:37] Goblin öldü. 10 Kemik kazandırdı.
+[20:08:38] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:08:39] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:08:39] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:40] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:08:41] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:08:42] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:08:42] Goblin öldü. 10 Kemik kazandırdı.
+[20:08:43] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:43] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:44] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:45] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:45] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:46] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:47] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:47] Goblin öldü. 10 Kemik kazandırdı.
+[20:08:47] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:48] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:08:48] Goblin öldü. 10 Kemik kazandırdı.
+[20:08:56] 2. Dalga Başlatıldı
+[20:08:56] 5. Knight
+[20:08:56] 5 Goblin
+[20:08:56] 4 Monster
+[20:08:56] 1. Dalga Başlatıldı
+[20:08:56] 5 Goblin
+[20:08:59] OkcuKulesi (345, 282) konumuna inşa edildi.
+[20:09:07] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 10
+[20:09:07] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 10
+[20:09:07] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 10
+[20:09:08] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 10
+[20:09:08] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 10
+[20:09:08] Goblin öldü. 10 Kemik kazandırdı.
+[20:09:08] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:09] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:09] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:10] BuzKulesi (575, 203) konumuna inşa edildi.
+[20:09:10] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:10] Kule 'T2', 'E1' 'ye slow attı.
+[20:09:10] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:10] Goblin öldü. 10 Kemik kazandırdı.
+[20:09:11] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:11] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:12] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:13] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:13] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 10
+[20:09:13] Goblin öldü. 10 Kemik kazandırdı.
+[20:09:13] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:14] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:14] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:14] Kule 'T2', 'E4' 'ye slow attı.
+[20:09:15] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:15] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:15] Goblin öldü. 10 Kemik kazandırdı.
+[20:09:15] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:16] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:16] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:17] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:17] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 10
+[20:09:17] Goblin öldü. 10 Kemik kazandırdı.
+[20:09:17] Dalga 2 gönderimi tamamlandı.
+[20:09:18] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:18] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:18] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:18] Kule 'T2', 'E4' 'ye slow attı.
+[20:09:19] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:19] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:19] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:20] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:20] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:21] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:21] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:22] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:22] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:22] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:22] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:23] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:23] Kule 'T2', 'E4' 'ye slow attı.
+[20:09:23] Kule 'T0', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:23] Flying Monster öldü. 15 Kemik kazandırdı.
+[20:09:23] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:24] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:24] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:25] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:25] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:25] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:26] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:26] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:27] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:27] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:27] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:28] Kule 'T1', 'E2' 'yi delip geçti. Hasar: 5
+[20:09:29] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 5
+[20:09:29] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 5
+[20:09:29] Kule 'T1', 'E1' 'yi delip geçti. Hasar: 5
+[20:09:30] Kule 'T1', 'E1' 'yi delip geçti. Hasar: 5
+[20:09:30] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 5
+[20:09:31] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 5
+[20:09:31] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 5
+[20:09:32] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 5
+[20:09:32] Kule 'T1', 'E9' 'yi delip geçti. Hasar: 10
+[20:09:32] Flying Monster öldü. 15 Kemik kazandırdı.
+[20:09:33] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 5
+[20:09:33] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 5
+[20:09:34] Kule 'T1', 'E5' 'yi delip geçti. Hasar: 5
+[20:09:34] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:35] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:35] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:36] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:36] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:37] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:37] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:38] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:38] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:39] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:40] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:40] Flying Monster hedefe ulaştı. 5 can azalttı
+[20:09:40] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:41] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:42] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 5
+[20:09:42] Armored Knight öldü. 20 Kemik kazandırdı.
+[20:09:54] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:11:34] Kapılar açıldı, oyun sahnesi hazır.
+[20:20:57] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:21:02] Simülasyon durduruldu, ana menüye dönüldü.
+[20:21:05] Kapılar açıldı, oyun sahnesi hazır.
+[20:21:06] 1. Dalga Başlatıldı
+[20:21:06] 5 Goblin
+[20:21:06] 2. Dalga Başlatıldı
+[20:21:06] 5. Knight
+[20:21:06] 5 Goblin
+[20:21:06] 4 Monster
+[20:21:13] Dalga 1 gönderimi tamamlandı.
+[20:21:14] OkcuKulesi (575, 203) konumuna inşa edildi.
+[20:21:17] 1. Dalga Başlatıldı
+[20:21:17] 5 Goblin
+[20:21:19] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:21:19] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:21:20] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:21:20] OkcuKulesi (345, 282) konumuna inşa edildi.
+[20:21:20] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:21:21] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:21:21] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:21] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:21:21] OkcuKulesi (835, 239) konumuna inşa edildi.
+[20:21:21] Kule 'T2', 'E5' 'yi delip geçti. Hasar: 10
+[20:21:22] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:21:22] Kule 'T2', 'E5' 'yi delip geçti. Hasar: 10
+[20:21:22] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:21:22] Kule 'T2', 'E5' 'yi delip geçti. Hasar: 10
+[20:21:23] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:21:23] Kule 'T2', 'E5' 'yi delip geçti. Hasar: 10
+[20:21:23] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:21:23] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:23] Kule 'T2', 'E5' 'yi delip geçti. Hasar: 10
+[20:21:23] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:24] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:21:24] OkcuKulesi (312, 502) konumuna inşa edildi.
+[20:21:24] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:21:25] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:21:25] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:25] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:26] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:26] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:27] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:27] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:27] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:27] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:27] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:27] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:28] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:28] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:28] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:28] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:21:28] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:28] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:28] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:29] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:21:29] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:29] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:29] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:21:29] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:29] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:29] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:29] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[20:21:29] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:30] Kule 'T0', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:30] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[20:21:30] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:30] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:30] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[20:21:30] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:30] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:30] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:31] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[20:21:31] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:31] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:31] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:31] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:31] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:31] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:32] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:32] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:32] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:32] Kule 'T2', 'E9' 'yi delip geçti. Hasar: 10
+[20:21:32] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:32] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:33] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:33] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:33] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:33] Kule 'T0', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:33] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:34] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:34] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:34] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:34] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:34] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:34] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:35] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:35] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:35] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:35] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:36] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:36] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:36] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:36] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:36] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:36] Goblin öldü. 10 Kemik kazandırdı.
+[20:21:37] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:37] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:37] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:37] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:37] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:38] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:38] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:38] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:38] Dalga 2 gönderimi tamamlandı.
+[20:21:38] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:38] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:38] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:38] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:38] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:38] Flying Monster öldü. 15 Kemik kazandırdı.
+[20:21:39] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:39] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:39] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:39] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:39] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:39] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:39] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:40] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:40] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:40] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:40] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:40] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:40] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:40] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:40] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:40] Flying Monster öldü. 15 Kemik kazandırdı.
+[20:21:41] Kule 'T0', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:41] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:41] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:41] Kule 'T1', 'E6' 'yi delip geçti. Hasar: 5
+[20:21:41] Armored Knight öldü. 20 Kemik kazandırdı.
+[20:21:41] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:42] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:42] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:42] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:42] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:42] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:43] Kule 'T2', 'E8' 'yi delip geçti. Hasar: 10
+[20:21:43] Flying Monster öldü. 15 Kemik kazandırdı.
+[20:21:43] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:43] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:43] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:43] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:44] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:44] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:44] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:44] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:45] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:45] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:45] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:45] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:46] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:46] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:46] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:46] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:46] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:46] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:47] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:47] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:47] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:47] Armored Knight öldü. 20 Kemik kazandırdı.
+[20:21:47] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:48] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:48] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:48] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:48] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:49] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:49] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:49] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:49] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:49] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:49] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:50] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:50] Kule 'T1', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:50] Armored Knight öldü. 20 Kemik kazandırdı.
+[20:21:51] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:51] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:51] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:21:51] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:52] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:52] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:52] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:52] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:52] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:52] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:53] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:53] Kule 'T1', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:53] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:54] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:54] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:55] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:55] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:56] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:56] Kule 'T3', 'E8' 'yi delip geçti. Hasar: 5
+[20:21:56] Armored Knight öldü. 20 Kemik kazandırdı.
+[20:21:57] Kule 'T3', 'E7' 'yi delip geçti. Hasar: 5
+[20:22:05] Armored Knight hedefe ulaştı. 5 can azalttı
+[20:22:50] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:22:54] Kapılar açıldı, oyun sahnesi hazır.
+[20:36:27] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:36:32] Kapılar açıldı, oyun sahnesi hazır.
+[20:36:40] BuzKulesi (835, 239) konumuna inşa edildi.
+[20:36:41] 1. Dalga Başlatıldı
+[20:36:41] 5 Goblin
+[20:36:41] 2. Dalga Başlatıldı
+[20:36:41] 5. Knight
+[20:36:41] 5 Goblin
+[20:36:41] 4 Monster
+[20:36:47] Kule 'T0', 'E1' 'ye slow attı.
+[20:36:47] 2. Dalga Başlatıldı
+[20:36:47] 5. Knight
+[20:36:47] 5 Goblin
+[20:36:47] 4 Monster
+[20:36:48] Dalga 1 gönderimi tamamlandı.
+[20:36:50] OkcuKulesi (575, 203) konumuna inşa edildi.
+[20:36:51] Kule 'T0', 'E2' 'ye slow attı.
+[20:36:54] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:36:55] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:36:55] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:36:55] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:36:56] Kule 'T1', 'E3' 'yi delip geçti. Hasar: 10
+[20:36:56] Goblin öldü. 10 Kemik kazandırdı.
+[20:36:56] Kule 'T0', 'E5' 'ye slow attı.
+[20:36:56] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[20:36:57] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[20:36:57] Kule 'T1', 'E4' 'yi delip geçti. Hasar: 10
+[20:37:43] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:37:46] Kapılar açıldı, oyun sahnesi hazır.
+[20:37:48] Oyun durduruldu, ana menüye dönüldü.
+[20:37:48] 1. Dalga Başlatıldı
+[20:37:48] 5 Goblin
+[20:37:48] 2. Dalga Başlatıldı
+[20:37:48] 5. Knight
+[20:37:48] 5 Goblin
+[20:37:48] 4 Monster
+[20:37:48] Oyun durduruldu, ana menüye dönüldü.
+[20:37:56] Dalga 1 gönderimi tamamlandı.
+[20:37:57] OkcuKulesi (575, 203) konumuna inşa edildi.
+[20:37:59] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:37:59] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:38:00] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:38:00] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:38:01] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:38:01] Goblin öldü. 10 Kemik kazandırdı.
+[20:38:01] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:38:01] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:38:02] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:39:51] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:39:55] Kapılar açıldı, oyun sahnesi hazır.
+[20:39:56] Oyun durduruldu, ana menüye dönüldü.
+[20:40:00] 1. Dalga Başlatıldı
+[20:40:00] 5 Goblin
+[20:40:00] 2. Dalga Başlatıldı
+[20:40:00] 5. Knight
+[20:40:00] 5 Goblin
+[20:40:00] 4 Monster
+[20:41:20] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:41:24] Kapılar açıldı, oyun sahnesi hazır.
+[20:41:25] 1. Dalga Başlatıldı
+[20:41:25] 5 Goblin
+[20:41:25] 2. Dalga Başlatıldı
+[20:41:25] 5. Knight
+[20:41:25] 5 Goblin
+[20:41:25] 4 Monster
+[20:41:33] Dalga 1 gönderimi tamamlandı.
+[20:41:36] Oyun durduruldu, ana menüye dönüldü.
+[20:41:40] Kapılar açıldı, oyun sahnesi hazır.
+[20:41:41] OkcuKulesi (835, 239) konumuna inşa edildi.
+[20:41:42] Sorcerer Tower (575, 203) konumuna inşa edildi.
+[20:41:43] 2. Dalga Başlatıldı
+[20:41:43] 5. Knight
+[20:41:43] 5 Goblin
+[20:41:44] 4 Monster
+[20:41:44] 1. Dalga Başlatıldı
+[20:41:44] 5 Goblin
+[20:41:44] Kule 'T0', 'E1' 'yi delip geçti. Hasar: 10
+[20:41:44] Goblin öldü. 10 Kemik kazandırdı.
+[20:41:44] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:41:45] Kule 'T0', 'E2' 'yi delip geçti. Hasar: 10
+[20:41:45] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:41:46] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:41:46] Goblin öldü. 10 Kemik kazandırdı.
+[20:41:46] Kule 'T0', 'E3' 'yi delip geçti. Hasar: 10
+[20:41:46] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:41:47] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:41:47] Kule 'T0', 'E4' 'yi delip geçti. Hasar: 10
+[20:41:48] Kule 'T0', 'E5' 'yi delip geçti. Hasar: 10
+[20:41:48] Goblin öldü. 10 Kemik kazandırdı.
+[20:41:48] Kule 'T0', 'E5' 'yi delip geçti. Hasar: 10
+[20:41:49] Kule 'T0', 'E5' 'yi delip geçti. Hasar: 10
+[20:41:49] Kule 'T0', 'E5' 'yi delip geçti. Hasar: 10
+[20:41:50] Kule 'T0', 'E5' 'yi delip geçti. Hasar: 10
+[20:41:50] Goblin öldü. 10 Kemik kazandırdı.
+[20:42:42] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:42:45] 1. Dalga Başlatıldı
+[20:42:45] 5 Goblin
+[20:42:45] 2. Dalga Başlatıldı
+[20:42:45] 5. Knight
+[20:42:45] 5 Goblin
+[20:42:45] 4 Monster
+[20:42:45] Kapılar açıldı, oyun sahnesi hazır.
+[20:42:51] Oyun durduruldu, ana menüye dönüldü.
+[20:42:54] Kapılar açıldı, oyun sahnesi hazır.
+[20:42:55] OkcuKulesi (835, 239) konumuna inşa edildi.
+[20:43:00] TopcuKulesi (575, 203) konumuna inşa edildi.
+[20:44:28] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:44:31] 1. Dalga Başlatıldı
+[20:44:31] 5 Goblin
+[20:44:31] 2. Dalga Başlatıldı
+[20:44:31] 5. Knight
+[20:44:31] 5 Goblin
+[20:44:31] 4 Monster
+[20:44:31] Kapılar açıldı, oyun sahnesi hazır.
+[20:44:38] Dalga 1 gönderimi tamamlandı.
+[20:44:41] Oyun tamamen sıfırlandı.
+[20:44:43] Oyun durduruldu, ana menüye dönüldü.
+[20:44:46] Kapılar açıldı, oyun sahnesi hazır.
+[20:44:48] OkcuKulesi (835, 239) konumuna inşa edildi.
+[20:44:49] 1. Dalga Başlatıldı
+[20:44:49] 5 Goblin
+[20:44:49] 2. Dalga Başlatıldı
+[20:44:49] 5. Knight
+[20:44:49] 5 Goblin
+[20:44:49] 4 Monster
+[20:48:01] Oyun başlatıldı. Düşmanlar bekleniyor...
+[20:48:04] Kapılar açıldı, oyun sahnesi hazır.
+[20:48:04] 1. Dalga Başlatıldı
+[20:48:04] 5 Goblin
+[20:48:04] 2. Dalga Başlatıldı
+[20:48:04] 5. Knight
+[20:48:04] 5 Goblin
+[20:48:04] 4 Monster
+[20:48:08] OkcuKulesi (575, 203) konumuna inşa edildi.
+[20:48:13] Dalga 1 gönderimi tamamlandı.
+[20:48:14] 2. Dalga Başlatıldı
+[20:48:14] 5. Knight
+[20:48:14] 5 Goblin
+[20:48:14] 4 Monster
+[20:48:14] 1. Dalga Başlatıldı
+[20:48:14] 5 Goblin
+[20:48:16] 🔄 Yeni oyun başlatıldı (Tam reset).
+[20:48:18] Oyun durduruldu, ana menüye dönüldü.
+[20:48:22] Kapılar açıldı, oyun sahnesi hazır.
+[20:48:24] 1. Dalga Başlatıldı
+[20:48:24] 5 Goblin
+[20:48:24] 2. Dalga Başlatıldı
+[20:48:24] 5. Knight
+[20:48:24] 5 Goblin
+[20:48:24] 4 Monster
+[20:48:32] Dalga 1 gönderimi tamamlandı.
+[20:48:32] 2. Dalga Başlatıldı
+[20:48:32] 5. Knight
+[20:48:32] 5 Goblin
+[20:48:32] 4 Monster
+[20:48:32] 1. Dalga Başlatıldı
+[20:48:32] 5 Goblin

@@ -18,7 +18,7 @@ namespace prolab_2
         // Tower görüntü güncelleme için virtual method
         public virtual void UpdateTowerImage(bool enemyLeft, bool enemyRight)
         {
-            // Base sınıfta boş bırakıyoruz, subclass override edecek
+            //subclass override edecek
         }
 
         protected Tower(string id, string name, double x, double y, int cost, double range, double damage, double fireRate)
@@ -44,8 +44,6 @@ namespace prolab_2
                 .FirstOrDefault();
         }
 
-        // DEĞİŞİKLİK BURADA: Attack metodu artık tüm listeyi alıyor
-        // (Çünkü Topçu kulesi patlama yapmak için diğer düşmanların yerini bilmeli)
         public virtual void Attack(Enemy target, List<Enemy> allEnemies)
         {
             if (CurrentCooldown <= 0 && target != null)

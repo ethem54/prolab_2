@@ -9,7 +9,7 @@ namespace prolab_2
         public string Name { get; set; }
         public Point Location { get; set; }
 
-        // DÜZELTME 1: UIElement yerine FrameworkElement (Width/Height özelliği için)
+        //Width/Height özelliği için FrameworkElement
         public FrameworkElement Appearance { get; set; }
 
         protected GameObject(string id, string name, double x, double y)
@@ -24,9 +24,14 @@ namespace prolab_2
         {
             if (Appearance != null)
             {
+
+                double w = Appearance.Width;
+                double h = Appearance.Height;
+                if (double.IsNaN(w)) w = Appearance.ActualWidth;
+                if (double.IsNaN(h)) h = Appearance.ActualHeight;
                 // Genişliğin yarısını çıkararak MERKEZİ konuma oturtuyoruz
-                Canvas.SetLeft(Appearance, Location.X - Appearance.ActualWidth / 2); // ActualWidth daha güvenlidir
-                Canvas.SetTop(Appearance, Location.Y - Appearance.ActualHeight / 2);
+                Canvas.SetLeft(Appearance, Location.X - w / 4);
+                Canvas.SetTop(Appearance, Location.Y - h);
 
                 Canvas.SetZIndex(Appearance, 99);
             }

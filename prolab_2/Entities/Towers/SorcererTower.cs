@@ -7,9 +7,9 @@ namespace prolab_2
     public class SorcererTower : Tower
     {
         public SorcererTower(string id, double x, double y)
-            // Maliyet: 200, Menzil: 180, Hasar: 40, Hız: 2.0s
+            // Maliyet: 200, Menzil: 200, Hasar: 40, Hız: 1.0s
             // Not: Atış hızı yavaştır ama zırhı yok sayar.
-            : base(id, "Sorcerer Tower", x, y, 200, 200, 50, 1.0)
+            : base(id, "Sorcerer Tower", x, y, 90, 200, 30, 1.0)
         {
             // Görünüm: Mor renkli, mistik bir daire
             Appearance = new Ellipse
@@ -28,11 +28,8 @@ namespace prolab_2
         {
             if (CurrentCooldown <= 0 && target != null)
             {
-                // NORMAL HASAR: target.TakeDamage(Damage); (Zırhtan etkilenir)
-
-                // BÜYÜ HASARI (Magic Damage):
                 // Zırh hesaplaması yapan TakeDamage metodunu kullanmıyoruz.
-                // Direkt can değerinden düşüyoruz. Böylece Knight'ın zırhı işlemez.
+                // Direkt can değerinden düşüyoruz.
 
                 target.CurrentHealth -= Damage;
 

@@ -21,8 +21,7 @@ namespace prolab_2
                 target.TakeDamage(finalDamage);
                 CurrentCooldown = FireRate;
 
-                // Loglama
-                Logger.Log($"Kule '{this.ID}', '{target.ID}' hedefine atış yaptı. Hasar: {finalDamage}");
+                Logger.Log($"Kule '{this.ID}', '{target.ID}' 'yi delip geçti. Hasar: {finalDamage}");
             }
         }
         private Image towerImage;
@@ -33,7 +32,7 @@ namespace prolab_2
         private string lookRightImage = "pack://application:,,,/prolab_2;component/Images/sag.png";
 
         public ArcherTower(string id, double x, double y)
-            : base(id, "OkcuKulesi", x, y, 50, 150, 10, 0.2)
+            : base(id, "OkcuKulesi", x, y, 50, 200, 10, 0.2)
         {
             Grid container = new Grid
             {

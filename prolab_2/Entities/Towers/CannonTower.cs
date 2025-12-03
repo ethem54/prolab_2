@@ -25,7 +25,7 @@ namespace prolab_2
         {
             return enemies
                 .Where(e => !(e is FlyingMonster) && CalculateDistance(e) <= Range && e.CurrentHealth > 0)
-                .OrderBy(e => CalculateDistance(e)) // Üsse en yakın mantığı rota indeksine göre yapılmalı ama bu da kabul görür.
+                .OrderBy(e => CalculateDistance(e)) // en yakın düşmana hedef alıyor
                 .FirstOrDefault();
         }
 
@@ -47,7 +47,7 @@ namespace prolab_2
                     }
                 }
 
-                Logger.Log($"Kule '{this.ID}' alan atışı yaptı. Merkez: '{target.ID}'");
+                Logger.Log($"Kule '{this.ID}' odaklı alan hasarı vurdu. Merkez: '{target.ID}'");
                 CurrentCooldown = FireRate;
             }
         }

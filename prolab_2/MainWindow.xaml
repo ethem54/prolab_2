@@ -96,7 +96,7 @@
                     Style="{StaticResource GameButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
             <ComboBox x:Name="tower" 
-                  Canvas.Left="285" Canvas.Top="480" 
+                  Canvas.Left="292" Canvas.Top="482" 
                   Width="120" Height="30"
                   Text="Kule Seç" IsEditable="False"
                   SelectionChanged="tower_SelectionChanged" HorizontalAlignment="Left" VerticalAlignment="Top">
@@ -106,10 +106,10 @@
                 <ComboBoxItem Content="SorcererTower" ToolTip="Maliyet: 200 - Büyücü"/>
             </ComboBox>
             <ComboBox x:Name="tower_Kopyala" 
-            Canvas.Left="555" Canvas.Top="190" 
+            Canvas.Left="555" Canvas.Top="183" 
             Width="120" Height="30"
             Text="Kule Seç" IsEditable="False"
-            SelectionChanged="tower_SelectionChanged" HorizontalAlignment="Left" VerticalAlignment="Top">
+            SelectionChanged="tower_SelectionChanged" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <ComboBoxItem Content="ArcherTower" ToolTip="Maliyet: 100 - Okçu Kulesi"/>
                 <ComboBoxItem Content="IceTower" ToolTip="Maliyet: 150 - Buz Kulesi"/>
                 <ComboBoxItem Content="CannonTower" ToolTip="Maliyet: 250 - Topçu"/>
@@ -126,15 +126,16 @@
                 <ComboBoxItem Content="SorcererTower" ToolTip="Maliyet: 200 - Büyücü"/>
             </ComboBox>
             <ComboBox x:Name="tower_Kopyala2" 
-            Canvas.Left="819" Canvas.Top="194" 
+            Canvas.Left="815" Canvas.Top="219" 
             Width="120" Height="30"
             Text="Kule Seç" IsEditable="False"
-            SelectionChanged="tower_SelectionChanged" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.413,-0.522">
+            SelectionChanged="tower_SelectionChanged" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="1.413,-0.522">
                 <ComboBoxItem Content="ArcherTower" ToolTip="Maliyet: 100 - Okçu Kulesi"/>
                 <ComboBoxItem Content="IceTower" ToolTip="Maliyet: 150 - Buz Kulesi"/>
                 <ComboBoxItem Content="CannonTower" ToolTip="Maliyet: 250 - Topçu"/>
                 <ComboBoxItem Content="SorcererTower" ToolTip="Maliyet: 200 - Büyücü"/>
             </ComboBox>
+
         </Canvas>
 
         <Border HorizontalAlignment="Right" 
@@ -152,7 +153,15 @@
                      FontSize="12"
                      ScrollViewer.VerticalScrollBarVisibility="Hidden"/>
         </Border>
-
+        <Button HorizontalAlignment="Left"
+        VerticalAlignment="Bottom"
+        Margin="10,0,0,10"
+        Width="120" Height="69"
+        FontSize="16" FontWeight="Bold"
+        Click="BtnExitGame_Click"
+        Style="{StaticResource GameButtonStyle}"
+        Panel.ZIndex="200"/>
+        
         <Grid x:Name="IntroLayer" Panel.ZIndex="999">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -193,7 +202,6 @@
 
             <Button x:Name="BtnStartGame"
                     Grid.ColumnSpan="2"
-                    Content="BAŞLAT"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Width="200" Height="102"
@@ -204,6 +212,7 @@
                     <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="5"/>
                 </Button.Effect>
             </Button>
+            
         </Grid>
 
     </Grid>

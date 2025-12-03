@@ -27,12 +27,12 @@ namespace prolab_2
         protected double CurrentSpeed;
         protected double SlowDuration;
 
-        // --- GÖRSEL BİLEŞENLER (Burada tanımlı olmaları ŞART) ---
+        // --- GÖRSEL BİLEŞENLER ---
         protected Image EnemySprite;
         protected Rectangle IceOverlay;
         protected ProgressBar HealthBar;
         protected ProgressBar MaxHealthBar;
-        protected StackPanel Container; // <-- İşte hatayı çözen satır bu!
+        protected StackPanel Container;
         protected Enemy(string id, string name, double x, double y, double maxHealth, int armor, double speed, int bounty, bool isFlying, double damageToPlayer) 
             : base(id, name, x, y)
         {
@@ -54,7 +54,7 @@ namespace prolab_2
             healthLayer.Width = spriteSize;
             healthLayer.Height = IsChampion ? 10 : 6;
 
-            // ✅ MAKSİMUM CAN BAR (ALTA)
+            // MAKSİMUM CAN BARI
             MaxHealthBar = new ProgressBar();
             MaxHealthBar.Minimum = 0;
             MaxHealthBar.Maximum = MaxHealth;
@@ -66,11 +66,10 @@ namespace prolab_2
             MaxHealthBar.BorderBrush = Brushes.Black;
             MaxHealthBar.BorderThickness = new Thickness(1);
 
-            // ✅ ANA DİKEY KAPSAYICI (CAN + GÖRSEL)
             Container = new StackPanel();
             Container.Width = spriteSize;
 
-            // ✅ CAN BAR
+            // CAN BARI
             HealthBar = new ProgressBar();
             HealthBar.Minimum = 0;
             HealthBar.Maximum = MaxHealth;
@@ -112,10 +111,7 @@ namespace prolab_2
             imageLayer.Children.Add(EnemySprite);  // ALTTA
             imageLayer.Children.Add(IceOverlay);   // ÜSTTE
 
-            // ✅ ÖNCE CAN BAR
             Container.Children.Add(healthLayer);
-
-            // ✅ SONRA DÜŞMAN SPRITE
             Container.Children.Add(imageLayer);
 
             this.Appearance = Container;
@@ -184,21 +180,19 @@ namespace prolab_2
                 }
             }
 
-            // Pozisyonu ve Z-Index'i güncelle
             UpdateEnemyVisual();
         }
 
-        // --- GÖRSEL GÜNCELLEME (Z-INDEX DAHİL) ---
+        // --- GÖRSEL GÜNCELLEME ---
         protected void UpdateEnemyVisual()
         {
-            // Container null ise işlem yapma (Hata koruması)
             if (Container == null) return;
 
             // 1. Konumu Ayarla
-            Canvas.SetLeft(Container, Location.X - Container.ActualWidth / 2); // Merkeze al
+            Canvas.SetLeft(Container, Location.X - Container.ActualWidth / 2);
             Canvas.SetTop(Container, Location.Y - Container.ActualHeight / 2);
 
-            // 2. Derinlik (Z-Index) Ayarı - Öndekiler üstte görünsün
+            // 2. Derinlik
             Canvas.SetZIndex(Container, 999);
         }
         public virtual string ImageName
@@ -210,9 +204,9 @@ namespace prolab_2
             if (IceOverlay == null) return;
 
             if (isFrozen)
-                IceOverlay.Visibility = Visibility.Visible;   // ❄️ MAVİYİ AÇ
+                IceOverlay.Visibility = Visibility.Visible;
             else
-                IceOverlay.Visibility = Visibility.Hidden;    // 🔥 KAPAT
+                IceOverlay.Visibility = Visibility.Hidden;
         }
     }
 }
